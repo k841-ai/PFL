@@ -1,0 +1,1824 @@
+2025-06-04 10:13:27,616 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:13:27,675 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:13:31,735 - src.rag_engine - INFO - Initializing language model...
+2025-06-04 10:13:32,026 - src.rag_engine - ERROR - Error initializing language model: models/llama-2-7b-chat-hf is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-06-04 10:13:32,027 - __main__ - ERROR - Error during ingestion: models/llama-2-7b-chat-hf is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-06-04 10:14:00,103 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:14:00,175 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:14:04,123 - src.rag_engine - INFO - Initializing language model...
+2025-06-04 10:14:04,626 - src.rag_engine - ERROR - Error initializing language model: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/meta-llama/Llama-2-7b-chat-hf.
+401 Client Error. (Request ID: Root=1-683fcf13-6d51f8375fc636a525897006;fae02a9b-9606-4cf0-9921-0ab51751158f)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json.
+Access to model meta-llama/Llama-2-7b-chat-hf is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-06-04 10:14:04,626 - __main__ - ERROR - Error during ingestion: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/meta-llama/Llama-2-7b-chat-hf.
+401 Client Error. (Request ID: Root=1-683fcf13-6d51f8375fc636a525897006;fae02a9b-9606-4cf0-9921-0ab51751158f)
+
+Cannot access gated repo for url https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/resolve/main/config.json.
+Access to model meta-llama/Llama-2-7b-chat-hf is restricted. You must have access to it and be authenticated to access it. Please log in.
+2025-06-04 10:19:29,427 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:19:33,936 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:19:38,162 - src.rag_engine - INFO - Creating new vector store...
+2025-06-04 10:19:39,006 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:19:40,191 - src.rag_engine - INFO - New vector store created
+2025-06-04 10:19:40,191 - __main__ - ERROR - Error during ingestion: Text directory not found: data/text_files
+2025-06-04 10:20:55,681 - __main__ - INFO - Clearing existing vector store...
+2025-06-04 10:20:55,682 - __main__ - INFO - Vector store cleared successfully
+2025-06-04 10:20:55,682 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:20:59,352 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:21:02,725 - src.rag_engine - INFO - Creating new vector store...
+2025-06-04 10:21:03,317 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:21:03,444 - src.rag_engine - INFO - New vector store created
+2025-06-04 10:21:03,444 - __main__ - INFO - Processing text files from data/texts
+2025-06-04 10:21:03,445 - src.rag_engine - INFO - Found 7 text files to process
+2025-06-04 10:21:03,445 - src.rag_engine - INFO - Processing file: data\texts\AFL_Financials_Summary_FY2025.txt
+2025-06-04 10:21:03,624 - src.rag_engine - INFO - Successfully processed data\texts\AFL_Financials_Summary_FY2025.txt
+2025-06-04 10:21:03,624 - src.rag_engine - INFO - Processing file: data\texts\AFL_Q4_Financials_Summary_FY2025.txt
+2025-06-04 10:21:03,762 - src.rag_engine - INFO - Successfully processed data\texts\AFL_Q4_Financials_Summary_FY2025.txt
+2025-06-04 10:21:03,762 - src.rag_engine - INFO - Processing file: data\texts\earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25.txt
+2025-06-04 10:21:03,859 - src.rag_engine - INFO - Successfully processed data\texts\earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25.txt
+2025-06-04 10:21:03,860 - src.rag_engine - INFO - Processing file: data\texts\Earnings Transcript Summary.txt
+2025-06-04 10:21:03,996 - src.rag_engine - INFO - Successfully processed data\texts\Earnings Transcript Summary.txt
+2025-06-04 10:21:03,996 - src.rag_engine - INFO - Processing file: data\texts\Hero FinCorp Limited FY '25 Financi.txt
+2025-06-04 10:21:04,143 - src.rag_engine - INFO - Successfully processed data\texts\Hero FinCorp Limited FY '25 Financi.txt
+2025-06-04 10:21:04,143 - src.rag_engine - INFO - Processing file: data\texts\Mahindra & Mahindra Financial Servi.txt
+2025-06-04 10:21:04,306 - src.rag_engine - INFO - Successfully processed data\texts\Mahindra & Mahindra Financial Servi.txt
+2025-06-04 10:21:04,306 - src.rag_engine - INFO - Processing file: data\texts\Tata Capital Limited FY '25 Financi.txt
+2025-06-04 10:21:04,416 - src.rag_engine - INFO - Successfully processed data\texts\Tata Capital Limited FY '25 Financi.txt
+2025-06-04 10:21:04,416 - src.rag_engine - INFO - Directory processing complete. Results: {
+  "processed": 7,
+  "failed": 0,
+  "skipped": 0,
+  "errors": []
+}
+2025-06-04 10:21:04,416 - __main__ - INFO - Ingestion complete!
+2025-06-04 10:21:04,416 - __main__ - INFO - Files processed: 7
+2025-06-04 10:21:04,416 - __main__ - INFO - Files skipped: 0
+2025-06-04 10:21:04,416 - __main__ - INFO - Files failed: 0
+2025-06-04 10:25:05,040 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:25:09,493 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:25:13,002 - src.rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:25:13,622 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:25:13,734 - src.rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:25:13,734 - __main__ - INFO - Querying: What are the key financial highlights for Mahindra & Mahindra Financial Services Limited in Q3FY25?
+2025-06-04 10:25:13,827 - src.rag_engine - ERROR - Error retrieving context: Collection.query() got an unexpected keyword argument 'fetch_k'
+2025-06-04 10:25:13,827 - __main__ - INFO - Query response:
+2025-06-04 10:25:13,828 - __main__ - INFO - Response: I apologize, but I don't have enough relevant information to answer your question accurately. Could you please rephrase your question or provide more context?
+2025-06-04 10:25:13,828 - __main__ - INFO - Context used: []
+2025-06-04 10:25:13,828 - __main__ - INFO - Processing time: 0.093447 seconds
+2025-06-04 10:25:13,828 - __main__ - INFO - Status: success
+2025-06-04 10:26:19,373 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:26:24,100 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:26:28,502 - src.rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:26:29,132 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:26:29,252 - src.rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:26:29,252 - __main__ - INFO - Querying: What are the key financial highlights for Mahindra & Mahindra Financial Services Limited in Q3FY25?
+2025-06-04 10:26:36,075 - __main__ - INFO - Query response:
+2025-06-04 10:26:36,076 - __main__ - INFO - Response: Based on the provided context, I can answer that there is no mention of Q3FY25 financial highlights. The document appears to be a summary of Q4 FY '25 earnings call, not Q3FY25.
+
+If you could provide more information or clarify which quarter's financial highlights you are looking for (Q2FY25, Q3FY25, etc.), I would be happy to try and assist you further.
+2025-06-04 10:26:36,076 - __main__ - INFO - Context used: ['The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial performance, strategic highlights, and other relevant details:', "Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary\nDate and Time: October 22, 2024, concluded at 6:51 p.m. IST\n\nHosted by: Axis Capital Limited\n\nManagement Present:", "# Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary\n\n## Key Financial Highlights\n- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying wheels commerce.\n- **Loan Book**: Grew 17% to INR 119,673 crores.\n- **Asset Quality**:\n  - Gross Stage 3 (GS3) at 3.7%, GS2 + GS3 at 9.1%.\n  - End losses reduced from INR 2,513 crores (FY '22) to INR 1,559 crores (FY '25).\n  - Credit cost: Q4 at 1.4%, full year at 1.3% (vs. 1.7% in FY '24).\n- **Net Interest Margins (NIMs)**: Compressed to 6.5% due to elevated cost of funds (up 20 bps) and slight yield reduction.\n- **Profit After Tax (PAT)**: Q4 down 9%, full year up 33%.\n- **Operating Expenses**: Q4 up 10 bps to 2.9%, full year down 10 bps to 2.7%.\n- **Provision Coverage Ratio (PCR)**: Improved to 51.2%, expected to stay below 55% over next 4-5 quarters."]
+2025-06-04 10:26:36,076 - __main__ - INFO - Processing time: 6.823009 seconds
+2025-06-04 10:26:36,076 - __main__ - INFO - Status: success
+2025-06-04 10:28:57,931 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:29:01,587 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:29:05,112 - src.rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:29:05,692 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:29:05,803 - src.rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:29:05,804 - __main__ - INFO - Querying: What was the total income and net profit for Axis Finance Limited in Q4 FY2025?
+2025-06-04 10:29:09,212 - __main__ - INFO - Query response:
+2025-06-04 10:29:09,237 - __main__ - INFO - Processing time: 3.408343 seconds
+2025-06-04 10:29:09,237 - __main__ - INFO - Status: success
+2025-06-04 10:33:02,410 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:33:06,687 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:33:11,376 - src.rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:33:11,949 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:33:12,057 - src.rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:33:12,057 - __main__ - INFO - Querying: What are the key financial highlights for Mahindra & Mahindra Financial Services Limited in Q4 FY2025?
+2025-06-04 10:33:18,229 - __main__ - INFO - Query response:
+2025-06-04 10:33:18,229 - __main__ - INFO - Response: The key financial highlights for Mahindra & Mahindra Financial Services Limited in Q4 FY2025 are:
+
+* Disbursements grew at 2% in Q4 and 3% for the full year, reflecting moderate underlying wheeler commerce.
+* The loan book grew 17% to INR 119,673 crores.
+* Asset quality improved:
+	+ Gross Stage 3 (GS3) decreased to 3.7%.
+	+ GS2 + GS3 at 9.1%.
+	+ End losses reduced from INR 2,513 crores in FY '22 to INR 1,559 crores in FY '25.
+	+ Credit cost was 1.4% in Q4 and 1.3% for the full year, improving from 1.7% in FY '24.
+* Net Interest Margins (NIMs) compressed to 6.5% due to elevated costs of funds and slight yield reduction.
+* Profit After Tax (PAT) was down 9% in Q4 but up 33% for the full year.
+* Operating Expenses increased by 10 bps to 2.9% in Q4 and decreased by 10 bps to 2.7% for the full year.
+* The Provision Coverage Ratio (PCR) improved to 51.2%, expected to stay below 55% over the next 4-5 quarters.
+2025-06-04 10:33:18,230 - __main__ - INFO - Context used: ['The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial performance, strategic highlights, and other relevant details:', "Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary\nDate and Time: October 22, 2024, concluded at 6:51 p.m. IST\n\nHosted by: Axis Capital Limited\n\nManagement Present:", "# Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary\n\n## Key Financial Highlights\n- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying wheels commerce.\n- **Loan Book**: Grew 17% to INR 119,673 crores.\n- **Asset Quality**:\n  - Gross Stage 3 (GS3) at 3.7%, GS2 + GS3 at 9.1%.\n  - End losses reduced from INR 2,513 crores (FY '22) to INR 1,559 crores (FY '25).\n  - Credit cost: Q4 at 1.4%, full year at 1.3% (vs. 1.7% in FY '24).\n- **Net Interest Margins (NIMs)**: Compressed to 6.5% due to elevated cost of funds (up 20 bps) and slight yield reduction.\n- **Profit After Tax (PAT)**: Q4 down 9%, full year up 33%.\n- **Operating Expenses**: Q4 up 10 bps to 2.9%, full year down 10 bps to 2.7%.\n- **Provision Coverage Ratio (PCR)**: Improved to 51.2%, expected to stay below 55% over next 4-5 quarters."]
+2025-06-04 10:33:18,230 - __main__ - INFO - Processing time: 6.171382 seconds
+2025-06-04 10:33:18,230 - __main__ - INFO - Status: success
+2025-06-04 10:35:55,858 - __main__ - INFO - Initializing RAG engine...
+2025-06-04 10:36:00,138 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:36:03,590 - src.rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:36:04,179 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:36:04,290 - src.rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:36:04,290 - __main__ - INFO - Querying: What were the expenses in foreign currency for AFL in FY2024?
+2025-06-04 10:36:04,421 - src.rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:36:04,427 - src.rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:36:04,427 - src.rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:36:08,407 - __main__ - INFO - Query response:
+2025-06-04 10:36:08,411 - __main__ - INFO - Processing time: 4.116572 seconds
+2025-06-04 10:36:08,411 - __main__ - INFO - Status: success
+2025-06-04 10:42:03,497 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:42:07,664 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:42:08,241 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:42:08,353 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:43:53,062 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:43:56,809 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:43:57,364 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:43:57,430 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:44:53,949 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:44:54,014 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:44:54,014 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:46:28,959 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:46:28,971 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:48:18,614 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:48:22,277 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:48:22,870 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:48:22,985 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:48:34,647 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:48:34,669 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:48:34,669 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:48:38,075 - __main__ - ERROR - Error processing query: 'Session' object has no attribute 'session_id'
+2025-06-04 10:48:43,045 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:48:43,057 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:48:43,057 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:48:46,307 - __main__ - ERROR - Error processing query: 'Session' object has no attribute 'session_id'
+2025-06-04 10:49:28,067 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:49:31,512 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:49:32,035 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:49:32,094 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:49:51,433 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:49:51,453 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:49:51,453 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:50:16,344 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:50:16,357 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:51:54,761 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:51:59,012 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:51:59,532 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:51:59,592 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:52:28,201 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:52:28,224 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:52:28,224 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:52:40,586 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:52:40,599 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:56:42,003 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:56:42,017 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:56:42,017 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 10:57:14,536 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 10:57:19,007 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 10:57:19,608 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 10:57:19,672 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 10:57:23,281 - agent.query - INFO - Query agent processing: what were the expenses in foreign currency for afl in fy2024?
+2025-06-04 10:57:23,461 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 10:57:23,488 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 10:57:23,488 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:01:21,184 - agent.query - INFO - Query agent processing: show me the trend of expenses over time
+2025-06-04 11:01:21,217 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:01:21,218 - rag_engine - INFO - Document 1 content: Disclaimer: This summary is based on the provided document excerpts. Missing details (e.g., expense breakdowns, revenue components) limit a comprehensive analysis. For precise figures, consult the ful...
+2025-06-04 11:01:21,218 - rag_engine - INFO - Document 2 content: Disclaimer: This summary is based on the provided document excerpts. Missing data (e.g., expenses, net profit) limits a complete financial analysis. For precise figures, consult the full audited finan...
+2025-06-04 11:01:21,218 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:01:21,218 - rag_engine - INFO - Document 4 content: Slippages: Higher in H1 (~INR 1,500 crores) vs. FY '24 full year, but credit cost to moderate via recoveries and lower LGD. No artificial provision releases.
+Geographical Trends: East (Kolkata region)...
+2025-06-04 11:01:21,218 - rag_engine - INFO - Document 5 content: Raul Rebello, Managing Director & CEO
+Vivek Karve, Chief Financial Officer
+Sandeep Mandrekar, Chief Business Officer, Wheels
+Key Financial Highlights
+Disbursements:
+Q2 degrowth vs. Q2 FY '24; H1 FY '2...
+2025-06-04 11:01:21,218 - rag_engine - INFO - Document 6 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 11:01:25,267 - agent.graph - INFO - Graph agent processing: show me the trend of expenses over time
+2025-06-04 11:02:22,497 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:03:28,095 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:03:31,582 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:03:32,141 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:03:32,204 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:03:35,130 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:03:35,186 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:03:35,197 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:03:35,204 - rag_engine - INFO - Document 5 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:03:35,204 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:03:35,204 - graph_utils - ERROR - Error extracting data from context: expected string or bytes-like object, got 'Document'
+2025-06-04 11:03:35,951 - graph_utils - ERROR - Error generating graph: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2025-06-04 11:04:13,939 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:04:17,823 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:04:18,333 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:04:18,394 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:04:21,456 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:04:21,605 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:04:21,617 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:04:21,624 - rag_engine - INFO - Document 5 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:04:21,625 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:04:21,625 - graph_utils - ERROR - Error extracting data from context: expected string or bytes-like object, got 'Document'
+2025-06-04 11:06:51,816 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:06:55,311 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:06:55,889 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:06:55,953 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:06:58,344 - agent.query - INFO - Query agent processing: what were the expenses in foreign currency for afl in fy2024?
+2025-06-04 11:06:58,400 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:06:58,400 - rag_engine - INFO - Document 1 content: Loan Asset Classification (as at March 31, 2025):
+- Stage 3 (Credit Impaired): ₹33,205.78 lakhs
+- Stage 2 (Significant Increase in Credit Risk): ₹43,344.68 lakhs
+- Overdue Amounts (>90 days):
+  - No. ...
+2025-06-04 11:06:58,400 - rag_engine - INFO - Document 2 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 11:06:58,400 - rag_engine - INFO - Document 3 content: Key Financial Highlights (Standalone)
+Revenue and Profitability (from Page 6):
+Revenue from Operations:
+Q4 FY '25: ₹2,384.39 crore (vs. ₹2,099.50 crore in Q4 FY '24, up ~13.6%).
+FY '25: ₹8,682.78 cror...
+2025-06-04 11:06:58,401 - rag_engine - INFO - Document 4 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:06:58,401 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:06:58,401 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:07:20,705 - agent.query - INFO - Query agent processing: what was the total loan assets for afl
+2025-06-04 11:07:20,713 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:07:20,713 - rag_engine - INFO - Document 1 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 11:07:20,713 - rag_engine - INFO - Document 2 content: Loan Growth: Loan book grew by 12.3% YoY, reflecting core business expansion.
+Cash Position: Sharp increase in cash & cash equivalents (₹1,963.49 crore) due to financing activities.
+Data Gaps: Specifi...
+2025-06-04 11:07:20,713 - rag_engine - INFO - Document 3 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:07:20,714 - rag_engine - INFO - Document 4 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:07:20,714 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:07:20,714 - rag_engine - INFO - Document 6 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:07:41,924 - agent.query - INFO - Query agent processing: what was the total loan assets for axis financial limited
+2025-06-04 11:07:41,932 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:07:41,933 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:07:41,933 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:07:41,933 - rag_engine - INFO - Document 3 content: Loan Growth: Loan book grew by 12.3% YoY, reflecting core business expansion.
+Cash Position: Sharp increase in cash & cash equivalents (₹1,963.49 crore) due to financing activities.
+Data Gaps: Specifi...
+2025-06-04 11:07:41,933 - rag_engine - INFO - Document 4 content: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:07:41,933 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:07:41,933 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:08:00,771 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:08:00,779 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:08:00,780 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:08:00,780 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:08:00,780 - rag_engine - INFO - Document 3 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:08:00,780 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 11:08:00,780 - rag_engine - INFO - Document 5 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:08:00,780 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:10:27,603 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:10:32,894 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:10:33,445 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:10:33,555 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:10:38,507 - agent.query - INFO - Query agent processing: what were the expenses in foreign currency for afl in fy2024?
+2025-06-04 11:10:38,640 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:10:38,640 - rag_engine - INFO - Document 1 content: Loan Asset Classification (as at March 31, 2025):
+- Stage 3 (Credit Impaired): ₹33,205.78 lakhs
+- Stage 2 (Significant Increase in Credit Risk): ₹43,344.68 lakhs
+- Overdue Amounts (>90 days):
+  - No. ...
+2025-06-04 11:10:38,640 - rag_engine - INFO - Document 2 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 11:10:38,640 - rag_engine - INFO - Document 3 content: Key Financial Highlights (Standalone)
+Revenue and Profitability (from Page 6):
+Revenue from Operations:
+Q4 FY '25: ₹2,384.39 crore (vs. ₹2,099.50 crore in Q4 FY '24, up ~13.6%).
+FY '25: ₹8,682.78 cror...
+2025-06-04 11:10:38,640 - rag_engine - INFO - Document 4 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:10:38,641 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:10:38,641 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:10:44,503 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:10:44,512 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:10:44,512 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:10:44,512 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:10:44,512 - rag_engine - INFO - Document 3 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:10:44,512 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 11:10:44,513 - rag_engine - INFO - Document 5 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:10:44,513 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:13:09,679 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:13:14,547 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:13:15,110 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:13:15,173 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:13:17,873 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:13:17,958 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:13:17,958 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:13:17,958 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:13:17,959 - rag_engine - INFO - Document 3 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:13:17,959 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 11:13:17,959 - rag_engine - INFO - Document 5 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:13:17,959 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:17:13,102 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:17:16,704 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:17:17,283 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:17:17,346 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:17:24,491 - agent.query - INFO - Query agent processing: what were the expenses in foreign currency for afl in fy2024?
+2025-06-04 11:17:24,647 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:17:24,647 - rag_engine - INFO - Document 1 content: Loan Asset Classification (as at March 31, 2025):
+- Stage 3 (Credit Impaired): ₹33,205.78 lakhs
+- Stage 2 (Significant Increase in Credit Risk): ₹43,344.68 lakhs
+- Overdue Amounts (>90 days):
+  - No. ...
+2025-06-04 11:17:24,648 - rag_engine - INFO - Document 2 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 11:17:24,648 - rag_engine - INFO - Document 3 content: Key Financial Highlights (Standalone)
+Revenue and Profitability (from Page 6):
+Revenue from Operations:
+Q4 FY '25: ₹2,384.39 crore (vs. ₹2,099.50 crore in Q4 FY '24, up ~13.6%).
+FY '25: ₹8,682.78 cror...
+2025-06-04 11:17:24,648 - rag_engine - INFO - Document 4 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:17:24,648 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:17:24,648 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:17:37,372 - agent.graph - INFO - Graph agent processing: compare the loan assets and revenue between tata capital and axis finance for fy2025
+2025-06-04 11:17:37,383 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:17:37,383 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:17:37,383 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:17:37,383 - rag_engine - INFO - Document 3 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:17:37,383 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 11:17:37,384 - rag_engine - INFO - Document 5 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:17:37,384 - rag_engine - INFO - Document 6 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:17:37,384 - agent.graph - INFO - Context document: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:17:37,384 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:17:37,384 - agent.graph - INFO - Context document: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:17:37,384 - agent.graph - INFO - Context document: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 11:17:37,384 - agent.graph - INFO - Context document: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:17:37,385 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:27:27,716 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:27:32,326 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:27:32,877 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:27:32,980 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:27:32,980 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 11:27:47,139 - agent.query - INFO - Query agent processing: show me a bar graph of total financial assets for tata capital and axis finance
+2025-06-04 11:27:47,265 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:27:47,265 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:27:47,265 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:27:47,265 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:27:47,266 - rag_engine - INFO - Document 4 content: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:27:47,266 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:27:47,266 - rag_engine - INFO - Document 6 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:27:57,060 - agent.graph - INFO - Graph agent processing: show me a bar graph of total financial assets for tata capital and axis finance
+2025-06-04 11:27:57,067 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:27:57,067 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:27:57,067 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:27:57,067 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:27:57,068 - rag_engine - INFO - Document 4 content: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:27:57,068 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:27:57,068 - rag_engine - INFO - Document 6 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:27:57,068 - agent.graph - INFO - Context document: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:27:57,068 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:27:57,068 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:27:57,068 - agent.graph - INFO - Context document: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:27:57,068 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:27:57,069 - agent.graph - INFO - Context document: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:27:57,069 - graph_utils - INFO - Generating graph for query: show me a bar graph of total financial assets for tata capital and axis finance
+2025-06-04 11:27:57,069 - graph_utils - INFO - Extracting data from context
+2025-06-04 11:27:57,069 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 11:27:57,074 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 11:27:57,454 - graph_utils - INFO - Attempting to save graph to: graphs\financial_assets_20250604_112757.png
+2025-06-04 11:32:28,567 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:32:32,087 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:32:32,648 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:32:32,713 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:32:32,713 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 11:32:37,267 - agent.query - INFO - Query agent processing: show me a bar graph of total financial assets for tata capital and axis finance
+2025-06-04 11:32:37,322 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:32:37,322 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:32:37,323 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:32:37,323 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:32:37,323 - rag_engine - INFO - Document 4 content: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:32:37,323 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:32:37,323 - rag_engine - INFO - Document 6 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:32:42,652 - agent.graph - INFO - Graph agent processing: show me a bar graph of total financial assets for tata capital and axis finance
+2025-06-04 11:32:42,659 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:32:42,659 - rag_engine - INFO - Document 1 content: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:32:42,659 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:32:42,659 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:32:42,659 - rag_engine - INFO - Document 4 content: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:32:42,660 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:32:42,660 - rag_engine - INFO - Document 6 content: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:32:42,660 - agent.graph - INFO - Context document: Profitability: Net profit and tax expense details not included in the provided pages.
+Assets (as at March 31, 2025):
+Total Financial Assets: ₹1,76,063.68 crore (vs. ₹1,21,686.74 crore as at March 31, ...
+2025-06-04 11:32:42,660 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:32:42,660 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:32:42,660 - agent.graph - INFO - Context document: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:32:42,660 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:32:42,661 - agent.graph - INFO - Context document: Tata Capital Limited FY '25 Financial Results Summary
+Document Reference: financials-march-2025-signed.pdf
+
+Date: May 13, 2025
+
+Source: Audited Standalone Financial Results for the quarter and year en...
+2025-06-04 11:32:42,661 - graph_utils - INFO - Generating graph for query: show me a bar graph of total financial assets for tata capital and axis finance
+2025-06-04 11:32:42,661 - graph_utils - INFO - Extracting data from context
+2025-06-04 11:32:42,661 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 11:32:42,664 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 11:32:42,970 - graph_utils - INFO - Attempting to save graph to: graphs\financial_assets_20250604_113242.png
+2025-06-04 11:47:41,268 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 11:47:44,818 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 11:47:45,564 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 11:47:45,727 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 11:47:45,728 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 11:52:20,337 - agent.query - INFO - Query agent processing: what was the total income for q4 fy2025?
+2025-06-04 11:52:20,506 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:52:20,506 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:52:20,506 - rag_engine - INFO - Document 2 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 11:52:20,506 - rag_engine - INFO - Document 3 content: Key Financial Highlights (Standalone)
+Revenue and Profitability (from Page 6):
+Revenue from Operations:
+Q4 FY '25: ₹2,384.39 crore (vs. ₹2,099.50 crore in Q4 FY '24, up ~13.6%).
+FY '25: ₹8,682.78 cror...
+2025-06-04 11:52:20,506 - rag_engine - INFO - Document 4 content: 1. Financial Performance Metrics
+Income Statement (Q4 FY2025 and Full Year FY2025):
+- Q4 FY2025 (Jan-Mar 2025):
+  - Total Income: ₹1,08,669.59 lakhs
+    - Interest Income: ₹1,04,431.47 lakhs (96.1% of...
+2025-06-04 11:52:20,506 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 11:52:20,506 - rag_engine - INFO - Document 6 content: Cash Flow Statement (FY2025):
+- Net Cash Flow from Operating Activities: ₹-6,48,018.95 lakhs
+  - Loans Disbursed (Increase in Loans): ₹-6,71,955.61 lakhs
+  - Interest Received: ₹4,02,875.30 lakhs
+  - ...
+2025-06-04 11:52:49,027 - agent.query - INFO - Query agent processing: what was the total loan assets for axis financial limited
+2025-06-04 11:52:49,036 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:52:49,036 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 11:52:49,036 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:52:49,037 - rag_engine - INFO - Document 3 content: Loan Growth: Loan book grew by 12.3% YoY, reflecting core business expansion.
+Cash Position: Sharp increase in cash & cash equivalents (₹1,963.49 crore) due to financing activities.
+Data Gaps: Specifi...
+2025-06-04 11:52:49,037 - rag_engine - INFO - Document 4 content: Financial Liabilities:
+Debt Securities: ₹6,286.92 crore (vs. ₹6,295.31 crore, down ~0.1%).
+Borrowings (other than debt securities): ₹36,018.40 crore (vs. ₹31,854.86 crore, up ~13.1%).
+Subordinated Lia...
+2025-06-04 11:52:49,037 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 11:52:49,037 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 11:53:29,978 - agent.query - INFO - Query agent processing: what is the qoq growth for mahindra and axis in terms revenue in fy'24?
+2025-06-04 11:53:29,989 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:53:29,989 - rag_engine - INFO - Document 1 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 11:53:29,989 - rag_engine - INFO - Document 2 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 11:53:29,989 - rag_engine - INFO - Document 3 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 11:53:29,989 - rag_engine - INFO - Document 4 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 11:53:29,989 - rag_engine - INFO - Document 5 content: Key Financial Highlights (Standalone)
+Revenue and Profitability (from Page 6):
+Revenue from Operations:
+Q4 FY '25: ₹2,384.39 crore (vs. ₹2,099.50 crore in Q4 FY '24, up ~13.6%).
+FY '25: ₹8,682.78 cror...
+2025-06-04 11:53:29,989 - rag_engine - INFO - Document 6 content: Growth to be balanced with margins and risk, leveraging green shoots in tractors and SME.
+Optimistic about festive season (Diwali) boosting volumes.
+Committed to achieving FY '25 targets (1.8%-2% ROA,...
+2025-06-04 11:55:22,599 - agent.query - INFO - Query agent processing: what is the qoq growth for hero fincorp and axis financial in terms revenue in fy'24?
+2025-06-04 11:55:22,607 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:55:22,607 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:55:22,607 - rag_engine - INFO - Document 2 content: Hero FinCorp Limited FY '25 Financial Results Summary
+Document Reference: HFCL_Audited_Financial_Results_March_31_2025_75ef3c8cc7.pdf
+
+Date: April 29, 2025
+
+Source: Audited Standalone Financial Result...
+2025-06-04 11:55:22,607 - rag_engine - INFO - Document 3 content: Operating Expenses: Down to 2.6% from 2.8%, with cost-to-income ratio at ~40% (vs. 43% peak). Target range: 38%-40%.
+Capital Adequacy: CRAR down 180 bps QoQ due to dividend payout and 5.7% asset growt...
+2025-06-04 11:55:22,607 - rag_engine - INFO - Document 4 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 11:55:22,608 - rag_engine - INFO - Document 5 content: Q3 FY '25 (Dec 31, 2024) results are unaudited/unreviewed due to the merger, and Q4 FY '25 results are derived as a balancing figure from audited full-year and unaudited YTD figures.
+FY '24 comparativ...
+2025-06-04 11:55:22,608 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue and Profitability (from Page 6):
+Revenue from Operations:
+Q4 FY '25: ₹2,384.39 crore (vs. ₹2,099.50 crore in Q4 FY '24, up ~13.6%).
+FY '25: ₹8,682.78 cror...
+2025-06-04 11:56:07,144 - agent.query - INFO - Query agent processing: what is the year on year growth for hero fincorp and axis financial in terms revenue?
+2025-06-04 11:56:07,152 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:56:07,153 - rag_engine - INFO - Document 1 content: Hero FinCorp Limited FY '25 Financial Results Summary
+Document Reference: HFCL_Audited_Financial_Results_March_31_2025_75ef3c8cc7.pdf
+
+Date: April 29, 2025
+
+Source: Audited Standalone Financial Result...
+2025-06-04 11:56:07,153 - rag_engine - INFO - Document 2 content: Loan Growth: Loan book grew by 12.3% YoY, reflecting core business expansion.
+Cash Position: Sharp increase in cash & cash equivalents (₹1,963.49 crore) due to financing activities.
+Data Gaps: Specifi...
+2025-06-04 11:56:07,153 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 11:56:07,153 - rag_engine - INFO - Document 4 content: Operating Expenses: Down to 2.6% from 2.8%, with cost-to-income ratio at ~40% (vs. 43% peak). Target range: 38%-40%.
+Capital Adequacy: CRAR down 180 bps QoQ due to dividend payout and 5.7% asset growt...
+2025-06-04 11:56:07,153 - rag_engine - INFO - Document 5 content: The recommended dividend and continued debt issuance signal confidence in liquidity and capital management.
+For further details, refer to the complete financial results on Hero FinCorp’s website: www....
+2025-06-04 11:56:07,153 - rag_engine - INFO - Document 6 content: Disclaimer: This summary is based on the provided document excerpts. Missing details (e.g., expense breakdowns, revenue components) limit a comprehensive analysis. For precise figures, consult the ful...
+2025-06-04 11:57:58,273 - agent.query - INFO - Query agent processing: what was the insurance commision qoq for hfcl
+2025-06-04 11:57:58,281 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:57:58,281 - rag_engine - INFO - Document 1 content: Q&A Key Points
+Tractor Stress: Delays, not defaults, driven by late monsoons impacting agrarian states. Recovery expected in Q3/Q4 with rabi season and aligned repayment schedules.
+Disbursement Growth...
+2025-06-04 11:57:58,281 - rag_engine - INFO - Document 2 content: Security Cover Certificate provided per Regulation 54.
+Statements confirming utilization of Non-Convertible Debenture proceeds and nil deviation/variation submitted per Regulations 52(7) and 52(7A).
+R...
+2025-06-04 11:57:58,281 - rag_engine - INFO - Document 3 content: GNPA (IRAC norms): INR 6,000 crores (~5.3%) vs. Stage 3 INR 4,309 crores (~3.8%).
+Credit cost: H1 at 1.9%, Q2 at 2.3%, projected to end FY '25 at 1.3%-1.5%.
+End losses reduced from INR 2,500 crores (F...
+2025-06-04 11:57:58,281 - rag_engine - INFO - Document 4 content: Key Corporate Actions
+Dividend:
+Recommended final dividend of ₹0.42 per equity share (face value ₹10) for FY '25, subject to shareholder approval at the AGM.
+Equity Issuance:
+Allotted 1,83,86,74,95 fu...
+2025-06-04 11:57:58,282 - rag_engine - INFO - Document 5 content: Auditor Details
+Joint Statutory Auditors: M M Nissim & Co LLP and Deloitte Haskins & Sells LLP.
+Audit Opinion: Unmodified opinion on audited financial results for FY '25 (Page 3).
+Security Cover Certi...
+2025-06-04 11:57:58,282 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Q3FY25 vs. Q3FY24)
+Disbursements: Increased 25% QoQ to Rs. 16,467 Cr from Rs. 15,436 Cr.
+Profit After Tax (PAT): Rose 63% YoY to Rs. 899 Cr.
+Asset Quality: Gross Stage 3 (GS3...
+2025-06-04 11:58:17,134 - agent.query - INFO - Query agent processing: what was the insurance commision for hfcl
+2025-06-04 11:58:17,141 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 11:58:17,141 - rag_engine - INFO - Document 1 content: Security Cover Certificate provided per Regulation 54.
+Statements confirming utilization of Non-Convertible Debenture proceeds and nil deviation/variation submitted per Regulations 52(7) and 52(7A).
+R...
+2025-06-04 11:58:17,141 - rag_engine - INFO - Document 2 content: Hero FinCorp Limited FY '25 Financial Results Summary
+Document Reference: HFCL_Audited_Financial_Results_March_31_2025_75ef3c8cc7.pdf
+
+Date: April 29, 2025
+
+Source: Audited Standalone Financial Result...
+2025-06-04 11:58:17,141 - rag_engine - INFO - Document 3 content: Key Corporate Actions
+Dividend:
+Recommended final dividend of ₹0.42 per equity share (face value ₹10) for FY '25, subject to shareholder approval at the AGM.
+Equity Issuance:
+Allotted 1,83,86,74,95 fu...
+2025-06-04 11:58:17,141 - rag_engine - INFO - Document 4 content: Q&A Key Points
+Tractor Stress: Delays, not defaults, driven by late monsoons impacting agrarian states. Recovery expected in Q3/Q4 with rabi season and aligned repayment schedules.
+Disbursement Growth...
+2025-06-04 11:58:17,141 - rag_engine - INFO - Document 5 content: GNPA (IRAC norms): INR 6,000 crores (~5.3%) vs. Stage 3 INR 4,309 crores (~3.8%).
+Credit cost: H1 at 1.9%, Q2 at 2.3%, projected to end FY '25 at 1.3%-1.5%.
+End losses reduced from INR 2,500 crores (F...
+2025-06-04 11:58:17,141 - rag_engine - INFO - Document 6 content: Auditor Details
+Joint Statutory Auditors: M M Nissim & Co LLP and Deloitte Haskins & Sells LLP.
+Audit Opinion: Unmodified opinion on audited financial results for FY '25 (Page 3).
+Security Cover Certi...
+2025-06-04 13:49:11,626 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 13:49:14,705 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 13:49:15,360 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 13:49:15,721 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 13:49:15,721 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 14:06:22,044 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 14:06:25,417 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 14:06:25,750 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 14:06:25,812 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 14:06:25,812 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 14:07:15,285 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 14:07:18,799 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 14:07:19,142 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 14:07:19,197 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 14:07:19,197 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 14:07:38,233 - agent.query - INFO - Query agent processing: what were the key highlights from the q4 fy25 earnings call?
+2025-06-04 14:07:38,369 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 14:07:38,369 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:07:38,369 - rag_engine - INFO - Document 2 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 14:07:38,369 - rag_engine - INFO - Document 3 content: 2. Audit Findings
+Auditors' Opinion:
+- Unmodified opinion issued by B. K. Khare & Co. and G. M. Kapadia & Co.
+- Financial statements comply with Ind AS, Companies Act, 2013, and provide a true and fai...
+2025-06-04 14:07:38,369 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 14:07:38,369 - rag_engine - INFO - Document 5 content: 2. Audit Findings
+Auditors' Opinion:
+- Unmodified opinion by B. K. Khare & Co. and G. M. Kapadia & Co.
+- Financial results comply with Ind AS 34, Companies Act, 2013, RBI guidelines, and SEBI Listing ...
+2025-06-04 14:07:38,369 - rag_engine - INFO - Document 6 content: Hero FinCorp Limited FY '25 Financial Results Summary
+Document Reference: HFCL_Audited_Financial_Results_March_31_2025_75ef3c8cc7.pdf
+
+Date: April 29, 2025
+
+Source: Audited Standalone Financial Result...
+2025-06-04 14:13:46,725 - agent.query - INFO - Query agent processing: what were the key highlights for axis?
+2025-06-04 14:13:46,879 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 14:13:46,879 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:13:46,879 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 14:13:46,879 - rag_engine - INFO - Document 3 content: ROA: Targeting 2% by FY '25 end, below 2.5% aspiration.
+Festive Season (October 2024):
+Marginal improvement vs. last year, with tractors showing early signs of recovery. Awaiting Dhanteras/Diwali numb...
+2025-06-04 14:13:46,879 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 14:13:46,879 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 14:13:46,879 - rag_engine - INFO - Document 6 content: Slippages: Higher in H1 (~INR 1,500 crores) vs. FY '24 full year, but credit cost to moderate via recoveries and lower LGD. No artificial provision releases.
+Geographical Trends: East (Kolkata region)...
+2025-06-04 14:14:14,142 - agent.query - INFO - Query agent processing: what were the key highlights for axis finance and hero fincorp ?
+2025-06-04 14:14:14,165 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 14:14:14,165 - rag_engine - INFO - Document 1 content: Hero FinCorp Limited FY '25 Financial Results Summary
+Document Reference: HFCL_Audited_Financial_Results_March_31_2025_75ef3c8cc7.pdf
+
+Date: April 29, 2025
+
+Source: Audited Standalone Financial Result...
+2025-06-04 14:14:14,165 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:14:14,165 - rag_engine - INFO - Document 3 content: The recommended dividend and continued debt issuance signal confidence in liquidity and capital management.
+For further details, refer to the complete financial results on Hero FinCorp’s website: www....
+2025-06-04 14:14:14,165 - rag_engine - INFO - Document 4 content: Loan Growth: Loan book grew by 12.3% YoY, reflecting core business expansion.
+Cash Position: Sharp increase in cash & cash equivalents (₹1,963.49 crore) due to financing activities.
+Data Gaps: Specifi...
+2025-06-04 14:14:14,165 - rag_engine - INFO - Document 5 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 14:14:14,165 - rag_engine - INFO - Document 6 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 14:25:35,983 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 14:25:39,522 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 14:25:39,876 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 14:25:39,925 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 14:25:39,925 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 14:26:02,672 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 14:26:02,703 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 14:26:02,703 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:26:02,703 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 14:26:02,703 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 14:26:02,704 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 14:26:02,704 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 14:26:02,704 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 14:26:02,704 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:26:02,704 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 14:26:02,704 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 14:26:02,704 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 14:26:02,704 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 14:26:02,704 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 14:26:02,704 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 14:26:02,704 - graph_utils - INFO - Extracting data from context
+2025-06-04 14:26:02,704 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 14:26:02,709 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 14:26:02,946 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_142602.png
+2025-06-04 14:26:04,939 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_142602.png
+2025-06-04 14:26:04,940 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 14:26:04,940 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 14:31:32,997 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 14:31:36,364 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 14:31:36,708 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 14:31:36,738 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 14:31:36,739 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 14:31:47,358 - agent.graph - INFO - Graph agent processing: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 14:31:47,386 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 14:31:47,386 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 14:31:47,386 - rag_engine - INFO - Document 2 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 14:31:47,387 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:31:47,387 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 14:31:47,387 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 14:31:47,387 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 14:31:47,387 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 14:31:47,387 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 14:31:47,387 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 14:31:47,387 - agent.graph - INFO - Context document: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 14:31:47,387 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 14:31:47,387 - agent.graph - INFO - Context document: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 14:31:47,387 - graph_utils - INFO - Generating graph for query: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 14:31:47,387 - graph_utils - INFO - Extracting data from context
+2025-06-04 14:31:47,387 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 14:31:47,389 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 14:31:47,402 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_143147.png
+2025-06-04 14:31:47,425 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_143147.png
+2025-06-04 14:31:47,425 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 14:31:47,426 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 17:14:57,077 - agent.graph - INFO - Graph agent processing: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:14:57,108 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 17:14:57,108 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:14:57,108 - rag_engine - INFO - Document 2 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:14:57,108 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:14:57,108 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:14:57,108 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:14:57,108 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:14:57,108 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:14:57,108 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:14:57,108 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:14:57,108 - agent.graph - INFO - Context document: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:14:57,108 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:14:57,108 - agent.graph - INFO - Context document: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:14:57,108 - graph_utils - INFO - Generating graph for query: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:14:57,108 - graph_utils - INFO - Extracting data from context
+2025-06-04 17:14:57,108 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 17:14:57,110 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 17:14:57,121 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_171457.png
+2025-06-04 17:14:57,142 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_171457.png
+2025-06-04 17:14:57,142 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 17:14:57,143 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 17:20:00,752 - agent.graph - INFO - Graph agent processing: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:20:00,771 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 17:20:00,771 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:20:00,771 - rag_engine - INFO - Document 2 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:20:00,772 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:20:00,772 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:20:00,772 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:20:00,772 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:20:00,772 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:20:00,772 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:20:00,772 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:20:00,772 - agent.graph - INFO - Context document: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:20:00,772 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:20:00,772 - agent.graph - INFO - Context document: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:20:00,772 - graph_utils - INFO - Generating graph for query: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:20:00,772 - graph_utils - INFO - Extracting data from context
+2025-06-04 17:20:00,772 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 17:20:00,772 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 17:20:00,780 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_172000.png
+2025-06-04 17:20:00,796 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_172000.png
+2025-06-04 17:20:00,796 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 17:20:00,797 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 17:20:09,489 - agent.graph - INFO - Graph agent processing: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:20:09,514 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 17:20:09,514 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:20:09,514 - rag_engine - INFO - Document 2 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:20:09,514 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:20:09,514 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:20:09,514 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:20:09,514 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:20:09,514 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:20:09,514 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:20:09,515 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:20:09,515 - agent.graph - INFO - Context document: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:20:09,515 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:20:09,515 - agent.graph - INFO - Context document: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:20:09,515 - graph_utils - INFO - Generating graph for query: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:20:09,515 - graph_utils - INFO - Extracting data from context
+2025-06-04 17:20:09,515 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 17:20:09,515 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 17:20:09,524 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_172009.png
+2025-06-04 17:20:09,542 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_172009.png
+2025-06-04 17:20:09,542 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 17:20:09,543 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 17:24:17,248 - agent.graph - INFO - Graph agent processing: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:24:17,270 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 17:24:17,270 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:24:17,270 - rag_engine - INFO - Document 2 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:24:17,270 - rag_engine - INFO - Document 3 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:24:17,270 - rag_engine - INFO - Document 4 content: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:24:17,270 - rag_engine - INFO - Document 5 content: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:24:17,271 - rag_engine - INFO - Document 6 content: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:24:17,271 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 17:24:17,271 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 17:24:17,271 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 17:24:17,271 - agent.graph - INFO - Context document: Loan Transfers (FY2025):
+- Loans Sold (Not in Default):
+  - Total Loans Sold: 702
+  - Aggregate Amount: ₹66,968.79 lakhs
+    - To Banks: ₹40,449.57 lakhs (407 loans)
+    - To Others: ₹26,519.22 lakhs ...
+2025-06-04 17:24:17,271 - agent.graph - INFO - Context document: Total Assets: ₹54,123.22 crore (vs. ₹48,565.27 crore as at March 31, 2024, up ~11.4%).
+Financial Assets:
+Cash & Cash Equivalents: ₹1,963.49 crore (vs. ₹28.34 crore, up significantly).
+Bank Balances (o...
+2025-06-04 17:24:17,271 - agent.graph - INFO - Context document: Driven by:
+Increase in loans: ₹(5,475.32) crore.
+Impairment on financial instruments: ₹2,865.56 crore.
+Finance costs paid: ₹(3,472.36) crore.
+Net Cash Used in Investing Activities:
+FY '25: ₹(435.61) c...
+2025-06-04 17:24:17,271 - graph_utils - INFO - Generating graph for query: create a bar graph comparing the loan book size and total financial assets of axis finance and mahindra finance for fy 2024-25
+2025-06-04 17:24:17,271 - graph_utils - INFO - Extracting data from context
+2025-06-04 17:24:17,271 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 17:24:17,271 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 17:24:17,279 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_172417.png
+2025-06-04 17:24:17,297 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_172417.png
+2025-06-04 17:24:17,297 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 17:24:17,297 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 18:07:19,096 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 18:07:22,466 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 18:07:22,795 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 18:07:22,826 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 18:07:22,826 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 18:07:30,074 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:07:30,099 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 18:07:30,099 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:07:30,099 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:07:30,099 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:07:30,099 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:07:30,099 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:07:30,099 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:07:30,099 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:07:30,099 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:07:30,099 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:07:30,099 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:07:30,099 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:07:30,099 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:07:30,099 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:07:30,099 - graph_utils - INFO - Extracting data from context
+2025-06-04 18:07:30,099 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 18:07:30,100 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 18:07:30,112 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_180730.png
+2025-06-04 18:07:30,133 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_180730.png
+2025-06-04 18:07:30,133 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 18:07:30,135 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 18:10:27,534 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 18:10:32,122 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 18:10:32,457 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 18:10:32,487 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 18:10:32,487 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 18:10:39,153 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:10:39,175 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 18:10:39,175 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:10:39,175 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:10:39,176 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:10:39,176 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:10:39,176 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:10:39,176 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:10:39,176 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:10:39,176 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:10:39,176 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:10:39,176 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:10:39,176 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:10:39,176 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:10:39,176 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:10:39,176 - graph_utils - INFO - Extracting data from context
+2025-06-04 18:10:39,176 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 18:10:39,176 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 18:10:39,185 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_181039.png
+2025-06-04 18:10:39,205 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_181039.png
+2025-06-04 18:10:39,205 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 18:10:39,206 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 18:14:20,889 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:14:20,909 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 18:14:20,910 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:14:20,910 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:14:20,910 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:14:20,910 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:14:20,910 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:14:20,910 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:14:20,910 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:14:20,910 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:14:20,910 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:14:20,910 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:14:20,910 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:14:20,910 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:14:20,910 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:14:20,910 - graph_utils - INFO - Extracting data from context
+2025-06-04 18:14:20,910 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 18:14:20,910 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 18:14:20,921 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_181420.png
+2025-06-04 18:14:20,938 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_181420.png
+2025-06-04 18:14:20,939 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 18:14:20,940 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 18:17:35,335 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 18:17:40,335 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 18:17:40,686 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 18:17:40,717 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 18:17:40,717 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 18:17:46,104 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:17:46,130 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 18:17:46,130 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:17:46,130 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:17:46,130 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:17:46,130 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:17:46,131 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:17:46,131 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:17:46,131 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:17:46,131 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:17:46,131 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:17:46,131 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:17:46,131 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:17:46,131 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:17:46,131 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:17:46,131 - graph_utils - INFO - Extracting data from context
+2025-06-04 18:17:46,131 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 18:17:46,135 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 18:17:46,149 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_181746.png
+2025-06-04 18:17:46,170 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_181746.png
+2025-06-04 18:17:46,170 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 18:17:46,171 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 18:19:22,227 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:19:22,252 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 18:19:22,252 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:19:22,252 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:19:22,252 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:19:22,252 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:19:22,252 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:19:22,252 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:19:22,252 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:19:22,252 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:19:22,252 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:19:22,252 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:19:22,252 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:19:22,252 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:19:22,252 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:19:22,252 - graph_utils - INFO - Extracting data from context
+2025-06-04 18:19:22,252 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 18:19:22,252 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 18:19:22,260 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_181922.png
+2025-06-04 18:19:22,277 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_181922.png
+2025-06-04 18:19:22,277 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 18:19:22,278 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-04 18:21:58,221 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-04 18:22:02,276 - rag_engine - INFO - Loading existing vector store...
+2025-06-04 18:22:02,587 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-04 18:22:02,617 - rag_engine - INFO - Vector store loaded successfully
+2025-06-04 18:22:02,617 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-04 18:22:09,422 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:22:09,445 - rag_engine - INFO - Retrieved 6 documents
+2025-06-04 18:22:09,445 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:22:09,446 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:22:09,446 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:22:09,446 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:22:09,446 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:22:09,446 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:22:09,446 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-04 18:22:09,446 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-04 18:22:09,446 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-04 18:22:09,446 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-04 18:22:09,446 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-04 18:22:09,446 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-04 18:22:09,446 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-04 18:22:09,446 - graph_utils - INFO - Extracting data from context
+2025-06-04 18:22:09,446 - graph_utils - INFO - Extracted data - Tata Capital: 176063.68, Axis Finance: 36752.76
+2025-06-04 18:22:09,447 - graph_utils - INFO - Data extracted: {'Company': {0: 'Tata Capital', 1: 'Axis Finance'}, 'Total Financial Assets (Crore ₹)': {0: 176063.68, 1: 36752.76}}
+2025-06-04 18:22:09,459 - graph_utils - INFO - Attempting to save graph to: graphs/financial_assets_20250604_182209.png
+2025-06-04 18:22:09,479 - graph_utils - INFO - Graph saved successfully at graphs/financial_assets_20250604_182209.png
+2025-06-04 18:22:09,479 - graph_utils - INFO - Graph generated and saved successfully
+2025-06-04 18:22:09,481 - agent.graph - INFO - Graph generated successfully: bar
+2025-06-05 19:58:27,378 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-06-05 19:58:31,094 - rag_engine - INFO - Loading existing vector store...
+2025-06-05 19:58:31,901 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-05 19:58:32,247 - rag_engine - INFO - Vector store loaded successfully
+2025-06-05 19:58:32,247 - graph_utils - INFO - GraphGenerator initialized with directory: graphs
+2025-06-05 19:58:35,502 - agent.graph - INFO - Graph agent processing: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-05 19:58:35,625 - rag_engine - INFO - Retrieved 6 documents
+2025-06-05 19:58:35,625 - rag_engine - INFO - Document 1 content: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-05 19:58:35,625 - rag_engine - INFO - Document 2 content: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-05 19:58:35,625 - rag_engine - INFO - Document 3 content: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-05 19:58:35,625 - rag_engine - INFO - Document 4 content: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-05 19:58:35,625 - rag_engine - INFO - Document 5 content: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-05 19:58:35,625 - rag_engine - INFO - Document 6 content: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-05 19:58:35,626 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025
+Extracted from Q4 Financials and Auditors' Report (March 31, 2025)...
+2025-06-05 19:58:35,626 - agent.graph - INFO - Context document: Axis Finance Limited - Detailed Metric and Text Summary for FY2025
+Extracted from Independent Auditors' Report and Financial Statements (March 31, 2025)
+
+1. Financial Metrics
+Balance Sheet Highlights ...
+2025-06-05 19:58:35,626 - agent.graph - INFO - Context document: # Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary
+
+## Key Financial Highlights
+- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying whee...
+2025-06-05 19:58:35,626 - agent.graph - INFO - Context document: Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary
+Date and Time: October 22, 2024, concluded at 6:51 p.m. IST
+
+Hosted by: Axis Capital Limited
+
+Management Present:...
+2025-06-05 19:58:35,626 - agent.graph - INFO - Context document: The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial p...
+2025-06-05 19:58:35,626 - agent.graph - INFO - Context document: Key Financial Highlights (Standalone)
+Revenue from Operations:
+Q4 FY '25: ₹5,665.97 crore (vs. ₹3,876.87 crore in Q4 FY '24, up ~46.2%).
+FY '25: ₹21,486.30 crore (vs. ₹13,289.85 crore in FY '24, up ~6...
+2025-06-05 19:58:35,626 - graph_utils - INFO - Generating graph for query: compare the financial performance of axis finance and mahindra finance for fy 2024-25, focusing on key metrics like revenue, profit, and asset quality
+2025-06-05 19:58:35,626 - graph_utils - INFO - Attempting to extract data from context for Axis Finance and Mahindra Finance
+2025-06-05 19:58:35,626 - graph_utils - INFO - Processing document 1/6
+2025-06-05 19:58:35,626 - graph_utils - INFO - Found potential Axis Finance FY2025 data in context
+2025-06-05 19:58:35,626 - graph_utils - INFO - Processing document 2/6
+2025-06-05 19:58:35,626 - graph_utils - INFO - Found potential Axis Finance FY2025 data in context
+2025-06-05 19:58:35,626 - graph_utils - INFO - Processing document 3/6
+2025-06-05 19:58:35,626 - graph_utils - INFO - Found potential Mahindra Finance data in context
+2025-06-05 19:58:35,626 - graph_utils - INFO - Processing document 4/6
+2025-06-05 19:58:35,626 - graph_utils - INFO - Found potential Mahindra Finance data in context
+2025-06-05 19:58:35,626 - graph_utils - INFO - Processing document 5/6
+2025-06-05 19:58:35,626 - graph_utils - INFO - Found potential Mahindra Finance data in context
+2025-06-05 19:58:35,626 - graph_utils - INFO - Processing document 6/6
+2025-06-05 19:58:35,626 - graph_utils - INFO - Raw Extracted Data - Axis Finance: {'Company': 'Axis Finance'}, Mahindra Finance: {'Company': 'Mahindra Finance'}
+2025-06-05 19:58:35,626 - graph_utils - WARNING - No relevant data extracted for graphing.
+2025-06-05 19:58:35,627 - agent.graph - ERROR - Graph generation error: Could not extract relevant financial data from the provided documents for comparison.

@@ -1,0 +1,608 @@
+[
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "Axis Finance Limited - Detailed Metric and Text Summary for FY2025\nExtracted from Independent Auditors' Report and Financial Statements (March 31, 2025)"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "1. Financial Metrics\nBalance Sheet Highlights (as at March 31, 2025):\n- Total Loan Assets (net of ECL): \u20b936,75,276 lakhs\n- Allowance for Expected Credit Loss (ECL): \u20b953,919 lakhs\n- Loan Assets as % of Total Assets: ~93%\n- Secured Loans: \u20b931,63,146.89 lakhs (Overdue: \u20b910,454.60 lakhs)\n- Unsecured Loans: \u20b95,65,948.13 lakhs (Overdue: \u20b92,144.36 lakhs)\n- Total Investments: \u20b91,53,738.29 lakhs\n  - Current Investments: \u20b913,740.48 lakhs (Government Securities)"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "- Long-Term Investments: \u20b91,39,997.81 lakhs (Debentures, Bonds, Government Securities, InVIT)\n- Secured Debentures: \u20b910,71,223.69 lakhs\n- Unsecured Debentures: \u20b93,23,540.80 lakhs\n- Commercial Paper: Nil (Previous year: \u20b91,90,851.87 lakhs)"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "Loan Asset Classification (as at March 31, 2025):\n- Stage 3 (Credit Impaired): \u20b933,205.78 lakhs\n- Stage 2 (Significant Increase in Credit Risk): \u20b943,344.68 lakhs\n- Overdue Amounts (>90 days):\n  - No. of Cases: 3,507\n  - Principal Overdue: \u20b933,021.83 lakhs\n  - Interest Overdue: \u20b92,873.84 lakhs\n  - Total Overdue: \u20b935,895.68 lakhs (excludes written-off amounts)"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "Revenue from Insurance Commission:\n- FY2025: \u20b91,748.75 lakhs\n  - Component 1: \u20b91,466.86 lakhs\n  - Component 2: \u20b9282.89 lakhs\n- FY2024: Not fully disclosed (partial data available)\n\nExpenses in Foreign Currency (FY2024):\n- Total: \u20b913.99 lakhs\n  - Component 1: \u20b916.48 lakhs\n  - Component 2: \u20b91.81 lakhs (Note: FY2025 data not provided)"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "Disputed Statutory Dues:\n- Income Tax (Assessment Year 2016-17):\n  - Commissioner of Income Tax, Appeals: \u20b912,95,220 (unpaid)\n  - Income Tax Appellate Tribunal (ITAT): \u20b97,59,872 (unpaid)\n- Income Tax (Assessment Years 2007-08, 2010-11, 2012-13):\n  - Rectification Pending with CFC: \u20b95,84,782 (unpaid)"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "2. Audit Findings\nAuditors' Opinion:\n- Unmodified opinion issued by B. K. Khare & Co. and G. M. Kapadia & Co.\n- Financial statements comply with Ind AS, Companies Act, 2013, and provide a true and fair view of:\n  - Financial position as at March 31, 2025\n  - Profit, including Other Comprehensive Income\n  - Changes in Equity and Cash Flows for FY2025"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 7,
+    "text": "Key Audit Matters:\n1. Allowance for Expected Credit Loss (ECL):\n   - Significant judgment in classifying loans and estimating ECL (\u20b953,919 lakhs).\n   - Critical estimates include:\n     - Qualitative/quantitative factors for loan staging\n     - Probabilities of Default (PD), Loss Given Default (LGD), Exposure at Default (EAD)\n     - Economic scenario projections and probability weights\n     - Adjustments for emerging trends\n   - Audit approach:"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 8,
+    "text": "- Audit approach:\n     - Evaluated accounting policies and modeling techniques\n     - Tested controls over EAD accuracy, loan staging, PD/LGD estimates\n     - Sample-based testing of ECL calculations and data completeness\n     - Reviewed management overlays for emerging trends\n2. Information Technology (IT) Systems and Controls:\n   - High dependency on automated controls for financial reporting"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 9,
+    "text": "- Risks include gaps in IT general controls (user access, segregation of duties, system changes)\n   - Audit approach:\n     - Engaged IT specialists to assess IT infrastructure\n     - Tested access security, program change controls, database management\n     - Verified user access controls and application controls\n     - Assessed compensating controls for identified deficiencies"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 10,
+    "text": "Other Matters:\n- Previous year (FY2024) financials audited by Singhi & Co. and B. K. Khare & Co., with unmodified opinion (April 18, 2024).\n- Audit trail issues:\n  - Oracle software: Audit trail for vendor banking details enabled from April 16, 2024\n  - FY2024: Two softwares (including Credence, decommissioned post-September 30, 2023) lacked audit trails\n  - No evidence of audit trail tampering"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 11,
+    "text": "3. Regulatory and Compliance Disclosures\n- No pending litigations materially impacting financial position (Note 34)\n- No long-term contracts or derivative contracts with foreseeable losses\n- No amounts required for Investor Education and Protection Fund\n- No breaches of covenants or divergences in asset classification/provisioning\n- Compliance with Sections 185 and 186(1) of Companies Act, 2013\n- No benami property proceedings under Benami Transactions (Prohibition) Act, 1988"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 12,
+    "text": "- No declaration as willful defaulter\n- No scheme of arrangement or pending ROC filings for charges\n- Regular deposit of statutory dues (GST, income tax, provident fund, etc.), except disputed income tax dues (listed above)\n- No crypto/virtual currency trading or investment\n- No undisclosed transactions\n- Working capital limits sanctioned (>\u20b95 crore) align with quarterly returns submitted to banks"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 13,
+    "text": "4. Management Responsibilities\n- Board of Directors responsible for:\n  - Preparing Ind AS-compliant financial statements\n  - Maintaining adequate accounting records\n  - Safeguarding assets, preventing fraud\n  - Selecting appropriate accounting policies\n  - Ensuring effective internal financial controls\n  - Assessing going concern basis (no intent to liquidate or cease operations)\n\n5. Post-Reporting Date Events\n- No events requiring adjustments to financial statements per Ind AS 10"
+  },
+  {
+    "pdf": "AFL_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 14,
+    "text": "Auditors:\n- B. K. Khare & Co. (FRN: 105102W), Shirish Rahalkar (M.No: 111212)\n- G. M. Kapadia & Co. (FRN: 104767W), Rajen Ashar (M.No: 048243)\n- Date: April 17, 2025\n- Place: Mumbai"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "Axis Finance Limited - Detailed Metric and Text Summary for Q4 and FY2025\nExtracted from Q4 Financials and Auditors' Report (March 31, 2025)"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "1. Financial Performance Metrics\nIncome Statement (Q4 FY2025 and Full Year FY2025):\n- Q4 FY2025 (Jan-Mar 2025):\n  - Total Income: \u20b91,08,669.59 lakhs\n    - Interest Income: \u20b91,04,431.47 lakhs (96.1% of total income)\n    - Fees and Commission Income: \u20b93,250.92 lakhs\n    - Other Operating Income: \u20b9655.20 lakhs\n    - Net Gain on Fair Value Changes: \u20b980.31 lakhs\n    - Net Gain on Derecognition of Financial Instruments: \u20b9172.67 lakhs\n    - Other Income: \u20b979.02 lakhs"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "- Other Income: \u20b979.02 lakhs\n  - Total Expenses: \u20b987,394.09 lakhs\n    - Finance Costs: \u20b962,051.33 lakhs (71% of total expenses)\n    - Impairment on Financial Instruments: \u20b912,215.21 lakhs\n    - Employee Benefits Expenses: \u20b96,955.16 lakhs\n    - Depreciation and Amortization: \u20b9477.72 lakhs\n    - Other Expenses: \u20b94,166.84 lakhs\n  - Profit Before Tax: \u20b921,275.50 lakhs\n  - Tax Expenses: \u20b95,407.02 lakhs (Current Tax: \u20b96,505.18 lakhs, Deferred Tax: \u20b9-1,098.16 lakhs)"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "- Net Profit: \u20b915,868.48 lakhs\n  - Other Comprehensive Income (Loss): \u20b9-1,828.91 lakhs\n    - Re-measurements of Net Defined Benefit Plans: \u20b9-49.39 lakhs (net of tax)\n    - Fair Value Changes on Cash Flow Hedge: \u20b9-1,779.52 lakhs (net of tax)\n  - Total Comprehensive Income: \u20b914,039.57 lakhs\n  - Earnings Per Share (not annualized): Basic & Diluted: \u20b92.29\n- Full Year FY2025:\n  - Total Income: \u20b94,10,063.51 lakhs\n    - Interest Income: \u20b93,92,913.35 lakhs"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "- Interest Income: \u20b93,92,913.35 lakhs\n    - Fees and Commission Income: \u20b910,117.44 lakhs\n  - Total Expenses: \u20b93,22,343.97 lakhs\n    - Finance Costs: \u20b91,82,973.07 lakhs\n    - Impairment on Financial Instruments: \u20b932,315.27 lakhs\n  - Profit Before Tax: \u20b987,719.55 lakhs\n  - Net Profit: \u20b965,247.34 lakhs\n  - Total Comprehensive Income: \u20b963,689.77 lakhs\n  - Earnings Per Share: Basic & Diluted: \u20b910.03"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "Cash Flow Statement (FY2025):\n- Net Cash Flow from Operating Activities: \u20b9-6,48,018.95 lakhs\n  - Loans Disbursed (Increase in Loans): \u20b9-6,71,955.61 lakhs\n  - Interest Received: \u20b94,02,875.30 lakhs\n  - Interest Paid: \u20b92,35,800.31 lakhs\n- Net Cash Flow from Investing Activities: \u20b915,243.13 lakhs\n  - Purchase of Investments (FVTPL): \u20b9-8,03,643.76 lakhs\n  - Sale of Investments (FVTPL): \u20b98,06,968.99 lakhs\n- Net Cash Flow from Financing Activities: \u20b96,52,197.60 lakhs"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "- Proceeds from Debt Securities: \u20b98,25,173.57 lakhs\n  - Repayment of Debt Securities: \u20b9-7,68,000.00 lakhs\n  - Proceeds from Equity Shares (Rights Issue): \u20b959,853.02 lakhs\n- Net Increase in Cash and Cash Equivalents: \u20b919,421.78 lakhs\n  - Closing Cash and Cash Equivalents: \u20b980,125.41 lakhs\n    - Cash: \u20b928,155.27 lakhs\n    - Highly Liquid Securities: \u20b951,970.14 lakhs"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 7,
+    "text": "Loan Transfers (FY2025):\n- Loans Sold (Not in Default):\n  - Total Loans Sold: 702\n  - Aggregate Amount: \u20b966,968.79 lakhs\n    - To Banks: \u20b940,449.57 lakhs (407 loans)\n    - To Others: \u20b926,519.22 lakhs (295 loans)\n  - Number of Transactions: 13\n  - Weighted Average Maturity (Remaining): 128.45 months\n  - Retention of Beneficial Economic Interest: 30% (average)\n  - Tangible Security Coverage: 100% to 200%\n  - Rating Distribution: A, A-, B+, BBB, BBB+\n- Loans Acquired (Not in Default):"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 8,
+    "text": "- Loans Acquired (Not in Default):\n  - Total Loans Acquired: 5,872\n  - Aggregate Amount: \u20b921,728.30 lakhs\n  - Number of Transactions: 6\n  - Weighted Average Maturity (Remaining): 87.37 months\n  - Retention of Beneficial Economic Interest: 10%\n  - Tangible Security Coverage: 100%"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 9,
+    "text": "Resolution Plans (Half Year Ended March 31, 2025):\n- Standard Accounts under Resolution:\n  - Personal Loans: \u20b9279.22 lakhs (from \u20b9274.99 lakhs)\n  - Corporate Persons (Others): \u20b9619.36 lakhs (from \u20b9658.49 lakhs)\n  - Total Exposure: \u20b9898.58 lakhs\n  - Amount Paid by Borrowers: \u20b943.83 lakhs\n  - No Slippages to NPA or Write-offs"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 10,
+    "text": "Non-Convertible Debentures (NCDs):\n- Unsecured NCDs Outstanding (March 31, 2025): \u20b931,100 crore\n  - ISINs: INE891K08034 to INE891K08216 (18 series)\n- Funds Raised in Q4 FY2025:\n  - INE891K08216: \u20b950 crore (Dec 27, 2024)\n  - INE891K08208 (Re-issuance): Amount not specified (Jan 16, 2025)\n  - INE891K07AE2: Amount not specified (Mar 27, 2025)\n- Total Fund Raising Approved: Up to \u20b936,000 crore (private placement)"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 11,
+    "text": "2. Audit Findings\nAuditors' Opinion:\n- Unmodified opinion by B. K. Khare & Co. and G. M. Kapadia & Co.\n- Financial results comply with Ind AS 34, Companies Act, 2013, RBI guidelines, and SEBI Listing Regulations\n- True and fair view of net profit, other comprehensive income, and financial information for Q4 and FY2025\n- Audit conducted per Standards on Auditing (SA) under Section 143(10) of Companies Act"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 12,
+    "text": "Auditors\u2019 Responsibilities:\n- Assessed risks of material misstatement (fraud or error)\n- Evaluated internal financial controls\u2019 effectiveness\n- Verified appropriateness of accounting policies and estimates\n- Confirmed going concern basis (no material uncertainty)\n- Ensured fair presentation and adequate disclosures"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 13,
+    "text": "Other Matters:\n- FY2024 results audited by Singhi & Co. and B. K. Khare & Co. (unmodified opinion, April 18, 2024)\n- Q4 FY2025 results derived as balancing figures from full-year audited figures and Q1-Q3 audited figures\n\n3. Regulatory and Compliance Disclosures\nBoard Meeting (April 17, 2025):\n- Approved audited financial results for Q4 and FY2025\n- Approved fund raising via NCDs/bonds up to \u20b936,000 crore\n- Meeting Duration: 2:15 p.m. to 7:45 p.m."
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 14,
+    "text": "SEBI Listing Regulations Compliance:\n- Regulation 52(4): Financial results, cash flow, and asset-liability statements submitted\n- Regulation 52(7): Proceeds from NCDs utilized as per Key Information Document\n- Regulation 52(7A): No deviation in use of NCD proceeds\n- Regulation 54: Security Cover Certificate provided\n- Regulation 23: Related Party Transactions disclosed for half-year ended March 31, 2025\n- Regulation 52(8): Results to be published in one English national daily newspaper"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 15,
+    "text": "RBI Compliance:\n- Impairment allowances under Ind AS 109 exceed IRACP norms; no impairment reserve required\n- No transfers of NPAs or SMAs\n- No acquisition of stressed loans\n- Compliance with RBI circulars on loan transfers and resolution plans"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 16,
+    "text": "Other Disclosures:\n- Single operating segment (financing) per Ind AS 108\n- Equity shares issued via rights issue: 6,65,06,764 shares of \u20b910 each (details truncated)\n- Compliance with covenants/terms of listed debt securities confirmed\n- No crypto/virtual currency transactions\n- No benami property proceedings\n- No willful defaulter declaration"
+  },
+  {
+    "pdf": "AFL_Q4_Financials_Summary_FY2025",
+    "section": "full_text",
+    "chunk_index": 17,
+    "text": "4. Related Party Transactions\n- Disclosed for half-year ended March 31, 2025 per Regulation 23\n- Details not fully provided in document; submitted as Annexure-5\n\nAuditors:\n- B. K. Khare & Co. (FRN: 105102W), Shirish Rahalkar (M.No: 111212)\n- G. M. Kapadia & Co. (FRN: 104767W), Rajen Ashar (M.No: 048243)\n- Date: April 17, 2025\n- Place: Mumbai"
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "The document is an earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25 (quarter ended December 2024). Below is a concise summary of key points, focusing on financial performance, strategic highlights, and other relevant details:"
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "Key Financial Highlights (Q3FY25 vs. Q3FY24)\nDisbursements: Increased 25% QoQ to Rs. 16,467 Cr from Rs. 15,436 Cr.\nProfit After Tax (PAT): Rose 63% YoY to Rs. 899 Cr.\nAsset Quality: Gross Stage 3 (GS3) maintained at 3.9%, indicating stable asset quality.\nNet Interest Margins (NIMs): Resilient despite cost of funds (CoF) pressures.\nDiversification:\nSME disbursements grew 60% YoY.\nOther disbursements (e.g., farm implements, gensets, personal/consumer loans) up 43% YoY."
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "9MFY25 Performance: PAT at Rs. 2,159 Cr (specific YoY comparison not provided).\nStrategic Highlights\nNew Initiatives:\nLaunched exclusive offers for electric vehicle (EV) financing.\nPartnered with RBL Bank for a co-branded credit card.\nTied up with 9 insurance providers to distribute life, non-life, and health insurance.\nReceived in-principle approval for TPAP (Third Party Application Provider) license.\nSigned a FASTag tie-up with IDFC Bank.\nOperational Enhancements:"
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "Operational Enhancements:\nStrengthened senior management with new CFO and Marketing Head appointments.\nOver 4,000 employees certified for selling insurance.\nDigital Dexterity Program initiated, covering 49% of employees.\nOver 40% of applications migrated to the cloud.\nCollaborated with Salesforce (SFDC) to develop a Loan Origination System (LOS) for SMEs.\nDeployed advanced AI tools (details truncated in the document).\nCompany Overview"
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "Company Overview\nVision: To be the \"Leading and Responsible Financial Solutions Partner of Choice for Emerging India.\"\nReach: Over 1,350 branches, partnerships with 10+ OEMs.\nAssets Under Management (AUM): Rs. 100,000 Cr as of FY'24.\nBusiness Focus: Vehicle financing, SME loans, mortgages, leasing, and partnerships with banks like SBI, BOB, and Ugro.\nESG & CSR Impact\nEducation: Supported 14,630 girls via Nanhi Kali, 3,000+ underprivileged students with scholarships."
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "Skilling: Trained 36,000 women through Mahindra Pride; plans to train 500 women in driving E-rickshaws.\nEnvironment: Created 2.15 Cr liters of water storage via 10 rainwater harvesting structures; planted 77,000 trees.\nAwards:\nDistinguished NBFC Award 2024 for Best Initiative.\nCSR Project of the Year 2023-24 for \"Swabhimaan\" initiative.\nGold and Bronze awards at ACEF Asian Business Leaders Award 2024 for education/skills and environmental sustainability.\nOther Notes"
+  },
+  {
+    "pdf": "earnings presentation from Mahindra & Mahindra Financial Services Limited for Q3FY25",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "Other Notes\nSafe Harbor Statement: Forward-looking statements are subject to risks like economic conditions, interest rate volatility, and regulatory changes.\nCompliance: The presentation adheres to SEBI Listing Regulations and is available on the company\u2019s website.\nIf you need specific data visualized in a chart (e.g., disbursements, PAT growth), further analysis of a particular section, or details on any truncated content (like AI tools), please let me know!"
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "# Mahindra & Mahindra Financial Services Limited Q4 FY '25 Earnings Call Summary"
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "## Key Financial Highlights\n- **Disbursements**: Q4 growth at 2%, full year at 3%, reflecting moderate underlying wheels commerce.\n- **Loan Book**: Grew 17% to INR 119,673 crores.\n- **Asset Quality**:\n  - Gross Stage 3 (GS3) at 3.7%, GS2 + GS3 at 9.1%.\n  - End losses reduced from INR 2,513 crores (FY '22) to INR 1,559 crores (FY '25).\n  - Credit cost: Q4 at 1.4%, full year at 1.3% (vs. 1.7% in FY '24)."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "- **Net Interest Margins (NIMs)**: Compressed to 6.5% due to elevated cost of funds (up 20 bps) and slight yield reduction.\n- **Profit After Tax (PAT)**: Q4 down 9%, full year up 33%.\n- **Operating Expenses**: Q4 up 10 bps to 2.9%, full year down 10 bps to 2.7%.\n- **Provision Coverage Ratio (PCR)**: Improved to 51.2%, expected to stay below 55% over next 4-5 quarters."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "## Business and Operational Highlights\n- **Tractor Segment**: Strong 8% Y-o-Y growth, maintaining leadership among NBFCs and banks.\n- **SME Business**: 48% disbursement growth, contributing 7% to new disbursements (vs. 5% in FY '24).\n- **Fee-Based Income**: Increased via corporate agency license with 10 insurance tie-ups.\n- **Digital Transformation (Project Udaan)**:\n  - Digital onboarding piloted.\n  - Non-cash collections rose from 69% to 77%.\n  - Critical applications migrated to cloud."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "- Critical applications migrated to cloud.\n- **Diversification**: Non-wheels business targeted to reach 25% of AUM by FY '29-'30, primarily through SME, leasing, and mortgages.\n- **Mortgage Business (MRHFL)**: Rightsized employee base from 10,000 to 5,000, net NPA below 1.5%, provisions made for stabilization.\n- **Headcount**: Flat for three years despite 17% CAGR in disbursements, reflecting efficiency gains."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "## Segment Performance\n- **Tractors**: Strong growth, highest among segments.\n- **Passenger Vehicles (PV)**: Growth led by SUVs, small vehicles under stress.\n- **Commercial Vehicles (CV) & Three-Wheelers**: Flat or declining, with risk recalibration.\n- **Pre-Owned Vehicles (POCL)**: Declined due to risk balancing, targeted to reach 20% of incremental sourcing (currently 17%).\n- **SME**: Retail-focused, primarily loans against property (LAP), with minor supply chain finance."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "## Outlook and Priorities for FY '26 and Beyond\n- **Growth**:\n  - Mid to high-teen growth targeted over 3-5 years, not specifically for FY '26.\n  - Focus on tractors, SUVs, and light commercial vehicles (LCVs) for wheels business.\n  - SME and leasing to grow at a higher clip, with mortgage plans to be detailed in 2-3 quarters.\n- **Margins**:\n  - NIMs expected to improve from 6.5% with declining cost of funds and increased fee-based income.\n  - Tractors and leasing to support margin expansion."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 7,
+    "text": "- **Asset Quality**:\n  - Credit cost guidance: 1.3%-1.7% medium-term range, aiming for lower end.\n  - GS3 and GS2 + GS3 to remain range-bound, with steady write-offs reflecting stable Stage 2/3 pools.\n- **Operating Expenses**: Targeted at 2.5%-2.7%, with marginal increases for diversification investments.\n- **Diversification**: Non-wheels AUM to reach 25% by FY '29-'30, with SME (LAP-focused), leasing, and mortgages as key drivers."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 8,
+    "text": "- **Resilience**: Emphasis on efficiency in sales, underwriting, and collections, with digital and AI use cases to enhance business and controls.\n- **ROA Aspirations**: Aim to climb above 2% in the medium term through improved margins, controlled opex, and stable credit costs."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 9,
+    "text": "## Leadership Team Updates\n- **Pradeep Agrawal**: New CFO, previously with Aditya Birla.\n- **Mahesh Rajaraman**: CRO, ex-Yes Bank and HDFC.\n- **Narayan**: Compliance Officer, 27 years at RBI.\n- **Farida**: Chief Legal Officer, previously with M&M.\n- **Bijoy**: Head of leasing and co-lending, ex-Axis Bank.\n- **Shiv Kumar**: SME leader, 2.5 years with Mahindra Finance.\n- **Jaspreet**: Head of Mortgages, ex-Bajaj Housing Finance.\n- **Deepa**: Head of Data and Digital."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 10,
+    "text": "- **Deepa**: Head of Data and Digital.\n- **Gaurav**: Head of Underwriting, ex-private sector bank.\n- **Anu Raj**: Head of Marketing, ex-Aditya Birla Group."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 11,
+    "text": "## Q&A Key Points\n- **Disbursement Growth**: Cautiously optimistic for FY '26, with focus on tractors, SUVs, and LCVs. Medium-term goal of mid to high-teen growth.\n- **Margin Improvement**: Driven by lower cost of funds, fee-based income, and higher-yield segments like tractors.\n- **Asset Quality**: Slippages stable at 3%-3.5% of opening book, Q4 typically higher due to settlements. Collection efforts to remain robust given middle-income customer base."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 12,
+    "text": "- **Pre-Owned Vehicles**: Temporary decline due to risk recalibration, with plans to resume growth.\n- **Mortgage Strategy**: Focus on affordable housing, leveraging MRHFL, with detailed plans in 2-3 quarters.\n- **EV Business**: Partnership with M&M for EV financing, targeting attractive IRRs with co-lending tie-ups to optimize balance sheet.\n- **Collections**: Reorganized into product-specific and bucket-focused teams, with emphasis on early bucket collections."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 13,
+    "text": "- **Opex**: Steady at 2.5%-2.7%, with diversification investments not expected to significantly increase costs.\n- **Write-Offs**: Secular across segments, expected to remain range-bound due to stable Stage 2/3 pools."
+  },
+  {
+    "pdf": "Earnings Transcript Summary",
+    "section": "full_text",
+    "chunk_index": 14,
+    "text": "## Closing Remarks\n- FY '25 reflected moderate growth but strong asset quality management in a challenging environment.\n- Focus on regaining growth momentum while maintaining asset quality and improving ROA towards 2%+.\n- Continued investment in digital, AI, and leadership to build a resilient business across cycles."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "Hero FinCorp Limited FY '25 Financial Results Summary\nDocument Reference: HFCL_Audited_Financial_Results_March_31_2025_75ef3c8cc7.pdf\n\nDate: April 29, 2025\n\nSource: Audited Standalone Financial Results for the quarter and year ended March 31, 2025, submitted to NSE under SEBI Listing Regulations."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "Key Financial Highlights (Standalone)\nRevenue and Profitability (from Page 6):\nRevenue from Operations:\nQ4 FY '25: \u20b92,384.39 crore (vs. \u20b92,099.50 crore in Q4 FY '24, up ~13.6%).\nFY '25: \u20b98,682.78 crore (vs. \u20b97,105.81 crore in FY '24, up ~22.2%).\nTotal Income:\nQ4 FY '25: \u20b92,384.39 crore (no other income specified).\nFY '25: \u20b98,682.78 crore.\nProfit Before Tax:\nFY '25: \u20b9198.37 crore (vs. \u20b9925.20 crore in FY '24, down ~78.6%).\nProfit After Tax:"
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "Profit After Tax:\nQ4 FY '25: \u20b9192.11 crore (vs. \u20b9167.08 crore in Q4 FY '24, up ~15.0%).\nFY '25: \u20b9112.77 crore (vs. \u20b9672.80 crore in FY '24, down ~83.2%).\nOther Comprehensive Income:\nFY '25: \u20b9(2.34) crore (vs. \u20b9(0.94) crore in FY '24).\nTotal Comprehensive Income:\nFY '25: \u20b9110.43 crore (vs. \u20b9671.86 crore in FY '24, down ~83.6%).\nAssets (from Page 7, as at March 31, 2025):\nTotal Assets: \u20b954,123.22 crore (vs. \u20b948,565.27 crore as at March 31, 2024, up ~11.4%).\nFinancial Assets:"
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "Financial Assets:\nCash & Cash Equivalents: \u20b91,963.49 crore (vs. \u20b928.34 crore, up significantly).\nBank Balances (other than cash): \u20b9463.53 crore.\nLoans: \u20b948,423.79 crore (vs. \u20b943,100.99 crore, up ~12.3%).\nInvestments: \u20b92,751.77 crore (vs. \u20b94,715.40 crore, down ~41.6%).\nDerivative Financial Instruments: \u20b9148.77 crore.\nTrade Receivables: \u20b91.55 crore.\nOther Financial Assets: \u20b990.20 crore.\nNon-Financial Assets:\nDeferred Tax Assets (Net): \u20b9108.53 crore (vs. \u20b9150.98 crore, down ~28.1%)."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "Property, Plant & Equipment: \u20b9161.43 crore.\nRight-of-Use Assets: \u20b952.06 crore.\nOther Non-Financial Assets: \u20b915.53 crore.\nLiabilities (from Page 7):\nTotal Liabilities: \u20b948,410.82 crore (vs. \u20b943,789.72 crore, up ~10.6%).\nFinancial Liabilities:\nDebt Securities: \u20b96,286.92 crore (vs. \u20b96,295.31 crore, down ~0.1%).\nBorrowings (other than debt securities): \u20b936,018.40 crore (vs. \u20b931,854.86 crore, up ~13.1%).\nSubordinated Liabilities: \u20b94,920.71 crore (vs. \u20b93,549.22 crore, up ~38.6%)."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "Trade Payables: \u20b9511.30 crore.\nLease Liabilities: \u20b9100.60 crore.\nOther Financial Liabilities: \u20b9420.69 crore.\nNon-Financial Liabilities:\nProvisions: \u20b965.82 crore.\nOther Non-Financial Liabilities: \u20b976.33 crore.\nCurrent Tax Liabilities (Net): \u20b910.05 crore.\nEquity:\nEquity Share Capital: \u20b9127.41 crore (vs. \u20b9127.31 crore).\nOther Equity: \u20b95,584.99 crore (vs. \u20b95,648.24 crore, down ~1.1%).\nTotal Equity: \u20b95,712.40 crore (vs. \u20b95,775.55 crore, down ~1.1%).\nCash Flow Highlights (from Page 8-9)"
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "Cash Flow Highlights (from Page 8-9)\nNet Cash Used in Operating Activities:\nFY '25: \u20b9(2,729.06) crore (vs. \u20b9(8,012.68) crore in FY '24).\nDriven by:\nIncrease in loans: \u20b9(5,475.32) crore.\nImpairment on financial instruments: \u20b92,865.56 crore.\nFinance costs paid: \u20b9(3,472.36) crore.\nNet Cash Used in Investing Activities:\nFY '25: \u20b9(435.61) crore (vs. \u20b9(95.59) crore in FY '24).\nKey movements:\nPurchase of investments: \u20b9(11,394.24) crore.\nSale of investments: \u20b910,953.63 crore."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 7,
+    "text": "Sale of investments: \u20b910,953.63 crore.\nNet Cash Generated from Financing Activities:\nFY '25: \u20b95,099.82 crore (vs. \u20b98,105.02 crore in FY '24).\nKey movements:\nProceeds from borrowings: \u20b922,654.34 crore.\nRepayment of borrowings: \u20b9(18,506.23) crore.\nProceeds from debt securities: \u20b98,372.00 crore.\nRepayment of debt securities: \u20b9(8,289.00) crore.\nNet Increase in Cash & Cash Equivalents:\nFY '25: \u20b91,935.15 crore (vs. \u20b9(2.65) crore in FY '24).\nClosing Cash & Cash Equivalents: \u20b91,963.49 crore."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 8,
+    "text": "Closing Cash & Cash Equivalents: \u20b91,963.49 crore.\nKey Corporate Actions\nDividend (from Page 1):\nRecommended final dividend of \u20b91.10 per equity share (face value \u20b910), subject to AGM approval.\nDividend of \u20b916.50 per Compulsorily Convertible Preference Share (Class A and B, face value \u20b9550).\nDebt Issuance (from Page 1):\nApproved issuance of Commercial Papers and Non-Convertible Debentures (NCDs) on private placement basis in FY '26.\nList of Debt Securities (from Page 35):"
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 9,
+    "text": "List of Debt Securities (from Page 35):\nSecured NCDs: \u20b92,202 crore across 12 ISINs.\nUnsecured NCDs: \u20b91,565 crore across 20 ISINs.\nPersonnel Changes (from Page 1):\nResignation of Mr. Anurag Agarwal (Head - Internal Audit).\nResignation of Ms. Srishti Sethi (Chief Risk Officer).\nOther Approvals:\nGeneral Information Document (GID) for NCD issuance approved.\nCompliance with SEBI Regulations 52(4), 52(7), 52(7A), 54, and 23(9)/62K(9) ensured through disclosures.\nAuditor Details"
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 10,
+    "text": "Auditor Details\nJoint Statutory Auditors: M M Nissim & Co LLP and Deloitte Haskins & Sells LLP.\nAudit Opinion: Unmodified opinion on audited financial results for FY '25 (Page 3).\nSecurity Cover Certificate (Pages 29-32):\nIssued by M M Nissim & Co LLP, confirming 100% or higher security cover for listed secured NCDs as per Debenture Trust Deeds, compliant with Regulation 54.\nVerified compliance with debt covenants and arithmetical accuracy of security cover calculations.\nNotes and Limitations"
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 11,
+    "text": "Notes and Limitations\nQ4 Results: Q4 FY '25 figures are balancing figures (audited full-year minus reviewed YTD Q3), subject to limited review (Page 5).\nComparative Data: FY '24 results audited by predecessor auditor with unmodified opinion (Page 5).\nProfit Decline: Significant drop in profit before tax (\u20b9198.37 crore vs. \u20b9925.20 crore) likely due to high impairment on financial instruments (\u20b92,865.56 crore) and increased finance costs (\u20b93,400.75 crore)."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 12,
+    "text": "Loan Growth: Loan book grew by 12.3% YoY, reflecting core business expansion.\nCash Position: Sharp increase in cash & cash equivalents (\u20b91,963.49 crore) due to financing activities.\nData Gaps: Specific revenue breakdowns (e.g., interest income, fees) and expense details not provided in the document excerpt.\nAdditional Context\nHero FinCorp, a Non-Banking Financial Company (NBFC) registered with RBI, focuses on lending activities, with loans comprising ~89.5% of total assets."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 13,
+    "text": "The company\u2019s financing strategy relies heavily on borrowings (\u20b936,018.40 crore) and debt securities, with active management of NCD issuances.\nThe decline in profitability may reflect challenges in asset quality (high impairments) or increased borrowing costs, warranting further analysis.\nThe recommended dividend and continued debt issuance signal confidence in liquidity and capital management."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 14,
+    "text": "For further details, refer to the complete financial results on Hero FinCorp\u2019s website: www.herofincorp.com or NSE filings."
+  },
+  {
+    "pdf": "Hero FinCorp Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 15,
+    "text": "Disclaimer: This summary is based on the provided document excerpts. Missing details (e.g., expense breakdowns, revenue components) limit a comprehensive analysis. For precise figures, consult the full audited financial statements."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "Mahindra & Mahindra Financial Services Limited Q2 FY '25 Earnings Call Summary\nDate and Time: October 22, 2024, concluded at 6:51 p.m. IST\n\nHosted by: Axis Capital Limited\n\nManagement Present:"
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "Raul Rebello, Managing Director & CEO\nVivek Karve, Chief Financial Officer\nSandeep Mandrekar, Chief Business Officer, Wheels\nKey Financial Highlights\nDisbursements:\nQ2 degrowth vs. Q2 FY '24; H1 FY '25 up 2% YoY, reflecting muted underlying wheels commerce.\nSME disbursements grew 50%+, while tractors (-3%), PV (-3% in Q2), CV (-1%), and three-wheelers (-1%) saw flat or negative growth. Used vehicles up 2%.\nLoan Book: Grew 20% YoY, driven by strong disbursements in FY '23 and FY '24."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "Asset Quality:\nGross Stage 3 (GS3) at 3.8%, up 20 bps QoQ but down 50 bps YoY. 40% of GS3 increase from tractors due to delayed cash flows in agrarian states (e.g., MP, Maharashtra, Gujarat, AP, Telangana).\nGS2 + GS3 at 10.3%, expected to fall below 10% by FY '25 end.\nGNPA (IRAC norms): INR 6,000 crores (~5.3%) vs. Stage 3 INR 4,309 crores (~3.8%).\nCredit cost: H1 at 1.9%, Q2 at 2.3%, projected to end FY '25 at 1.3%-1.5%."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "End losses reduced from INR 2,500 crores (FY '22) to INR 1,700 crores (FY '24), expected to decline further.\nProvision coverage ratio (PCR) at 59.5%, expected to moderate as COVID-era data exits ECL models.\nNet Interest Margins (NIMs): Stable at 6.5%, with H1 at 6.5% and FY '25 guidance of 6.5%-6.7%.\nYields up 30 bps QoQ (20 bps loan income, 10 bps fee income from insurance agency).\nCost of funds unchanged, with incremental COF stable but stock-level COF slow to adjust.\nProfitability:"
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "Profitability:\nPPOP up 27% YoY, PAT up 57% in Q2 and 50% in H1.\nROA at 1.5% in H1, expected to reach 1.8%-2% by FY '25 end (vs. Mission '25 aspiration of 2.5%).\nOperating Expenses: Down to 2.6% from 2.8%, with cost-to-income ratio at ~40% (vs. 43% peak). Target range: 38%-40%.\nCapital Adequacy: CRAR down 180 bps QoQ due to dividend payout and 5.7% asset growth. Tier 1 at ~15% (vs. 9% regulatory floor), no equity raise planned in FY '25.\nBusiness and Operational Highlights"
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "Business and Operational Highlights\nMission '25 Aspirations (Set in FY '22):\nAsset Quality: GS3 below threshold at 3.8%, credit cost trending toward 1.3%-1.5%.\nBook Growth: On track for 2x AUM from FY '22 levels, supported by prior disbursements.\nOperational Efficiency: Opex trending down, supported by digital and process improvements."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "Diversification: Non-wheels business at 6% of AUM (vs. 15% target), with MSME and leasing showing progress. Mortgage and insurance agency licenses to aid future growth.\nROA: Targeting 2% by FY '25 end, below 2.5% aspiration.\nFestive Season (October 2024):\nMarginal improvement vs. last year, with tractors showing early signs of recovery. Awaiting Dhanteras/Diwali numbers for clearer trends.\nDigital and Tech:\nNew LOS and LMS (Salesforce) implemented."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 7,
+    "text": "New LOS and LMS (Salesforce) implemented.\nNTC scorecards and BRE enhanced for wheels business, set to go live soon.\nTalent Augmentation:\nMahesh (CRO, ex-HDFC/Yes Bank), Jaspreet Chadha (CBO Mortgages, ex-Bajaj Finance), Bijoy (CBO Leasing, ex-Axis Bank), Mod Singh (ex-RBI), and Devendra (Chief Analytics Officer) joined to strengthen leadership.\nRural Housing (MRHFL):\nGS3 at ~9% (down from 12% YoY), flat QoQ. Focus on collections, not growth."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 8,
+    "text": "Employee base reduced from 10,000 to 6,500. Exited low-ticket housing loans.\nTarget GS3 of 5.5%-6% in 2 quarters, with Jaspreet seconded to lead stabilization.\nSegment Performance\nTractors: 40% of GS3 spike due to delayed cash flows from late monsoons. Half-yearly repayments for agrarian borrowers impacted; monthly repayment borrowers (haulage + agri) less stressed. Recovery expected in Q3/Q4 with rabi season."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 9,
+    "text": "Passenger Vehicles (PV): Flat YoY, down 3% in Q2. NTC and near-prime segments offer growth potential with improved underwriting.\nCommercial Vehicles (CV): Flat YoY, with small CVs seeing delays among self-employed borrowers.\nUsed Vehicles: Up 2%, contributing 18% to disbursements. Focus on used cars, tractors, and CVs to boost yields.\nSME: Strong 50%+ growth, though small base. Key driver for diversification.\nThree-Wheelers: Down 1%, minimal overlap with MFI borrowers."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 10,
+    "text": "Outlook and Priorities for FY '25 and Beyond\nGrowth:\nFY '25 disbursements likely flattish or up to 4% (vs. earlier low-teen guidance). Book growth projected at ~18% due to prior disbursements.\nMedium-term (3-year) aspiration: Mid-teen disbursement CAGR, driven by wheels (maintaining market share) and new businesses (SME, leasing, mortgages).\nMargins:\nNIMs to improve to 6.5%-6.7% in FY '25 via higher IRRs (PV, used vehicles, tractors), fee income, and stable COF."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 11,
+    "text": "No significant COF relief assumed.\nAsset Quality:\nCredit cost guidance: 1.3%-1.5% for FY '25, medium-term range of 1.2%-1.5%.\nFocus on controlling slippages (H1 at ~INR 1,500 crores, similar to FY '24 full year) via enhanced collections and analytics.\nGS3 and GS2 + GS3 to moderate in H2 with improved rural cash flows.\nDiversification:\nNon-wheels AUM targeted at 15%+ in the medium term, with SME, leasing, and mortgages as key drivers."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 12,
+    "text": "Co-lending with SBI, Bank of Baroda, and others to target prime PV/CV customers, aiming for INR 25-40 crores monthly throughput per partner.\nOperational Efficiency:\nCost-to-income ratio to stay at 38%-40%, balancing new business investments with fee income growth.\nEnhanced collection intensity to counter macro challenges, with analytics-driven tools and repossession efficiency reducing end losses."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 13,
+    "text": "Rural Housing: Prioritize asset quality (GS3 to 5.5%-6%) over growth, with organizational rationalization ongoing.\nQ&A Key Points\nTractor Stress: Delays, not defaults, driven by late monsoons impacting agrarian states. Recovery expected in Q3/Q4 with rabi season and aligned repayment schedules.\nDisbursement Growth: Muted due to weak underlying demand in wheels segments, not a conscious pullback. SME an outlier with strong growth."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 14,
+    "text": "MFI Stress: Minimal overlap with MFI borrowers, primarily in three-wheelers, but no significant stress observed.\nFee Income: Structural growth from insurance agency (6 partners across life, health, motor), expected to sustain and grow.\nECL Coverage: Reviewed quarterly, with PD/LGD refresh. Coverage (59.5%) to decline in H2 as COVID-era data exits, aiding credit cost reduction."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 15,
+    "text": "Slippages: Higher in H1 (~INR 1,500 crores) vs. FY '24 full year, but credit cost to moderate via recoveries and lower LGD. No artificial provision releases.\nGeographical Trends: East (Kolkata region) disbursements down 200 bps due to Northeast risk review (post-Mizoram incident) and weak market throughput.\nCapital Adequacy: No equity raise needed in FY '25, with Tier 1 at ~15%. CRAR decline due to dividend and asset growth."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 16,
+    "text": "Yield Pass-Through: Steady increase in PV segment IRRs in Q1/Q2, with used vehicles aiding yield improvement. No specific quantum disclosed.\nClosing Remarks\nQ2 faced challenges from macro headwinds and rural cash flow disruptions, particularly in tractors.\nAsset quality remains a top priority, with intensified collection efforts and a war room setup akin to post-COVID.\nGrowth to be balanced with margins and risk, leveraging green shoots in tractors and SME."
+  },
+  {
+    "pdf": "Mahindra & Mahindra Financial Servi",
+    "section": "full_text",
+    "chunk_index": 17,
+    "text": "Optimistic about festive season (Diwali) boosting volumes.\nCommitted to achieving FY '25 targets (1.8%-2% ROA, 1.3%-1.5% credit cost, 18% book growth) while building resilience for medium-term aspirations.\nNote: The transcript aligns with regulatory filings under SEBI Listing Regulations and is available on the company\u2019s website: Mahindra Finance Investor Relations. For further details, refer to the investor deck referenced during the call."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 0,
+    "text": "Tata Capital Limited FY '25 Financial Results Summary\nDocument Reference: financials-march-2025-signed.pdf\n\nDate: May 13, 2025\n\nSource: Audited Standalone Financial Results for the quarter and year ended March 31, 2025, submitted to BSE and NSE under SEBI Listing Regulations."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 1,
+    "text": "Key Financial Highlights (Standalone)\nRevenue from Operations:\nQ4 FY '25: \u20b95,665.97 crore (vs. \u20b93,876.87 crore in Q4 FY '24, up ~46.2%).\nFY '25: \u20b921,486.30 crore (vs. \u20b913,289.85 crore in FY '24, up ~61.7%).\nBreakdown (FY '25):\nInterest Income: \u20b919,203.46 crore (~89.4% of revenue, up 66.8% YoY).\nFees & Commission Income: \u20b91,233.81 crore (up significantly, exact YoY not provided).\nNet Gain on Fair Value Changes: \u20b9335.74 crore (up 89.0% YoY)."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 2,
+    "text": "Dividend Income: \u20b985.80 crore (vs. \u20b912.86 crore in FY '24).\nTotal Income:\nQ4 FY '25: \u20b95,955.63 crore (vs. \u20b93,932.48 crore in Q4 FY '24, up ~51.4%).\nFY '25: \u20b921,940.08 crore (vs. \u20b913,309.11 crore in FY '24, up ~64.8%).\nOther Income: \u20b953.78 crore in FY '25 (vs. \u20b919.26 crore in FY '24).\nExpenses: Specific expense breakdowns (e.g., finance costs, impairment, employee benefits) not provided in the document excerpt.\nProfitability: Net profit and tax expense details not included in the provided pages."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 3,
+    "text": "Assets (as at March 31, 2025):\nTotal Financial Assets: \u20b91,76,063.68 crore (vs. \u20b91,21,686.74 crore as at March 31, 2024, up ~44.7%).\nLoans: \u20b91,55,623.56 crore (up 46.2% YoY).\nInvestments: \u20b911,500.66 crore (up 21.2% YoY).\nCash & Cash Equivalents: \u20b96,547.82 crore (up 34.0% YoY).\nDerivative Financial Instruments: \u20b9795.14 crore (up 708.7% YoY).\nNon-Financial Assets:\nDeferred Tax Assets: \u20b91,378.74 crore (up 229.7% YoY).\nCurrent Tax Assets: \u20b9185.75 crore (up 15.2% YoY)."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 4,
+    "text": "Current Tax Assets: \u20b9185.75 crore (up 15.2% YoY).\nNote: The significant growth in assets and revenue reflects the amalgamation of Tata Motors Finance Limited (TMFL) into Tata Capital Limited (TCL), effective April 1, 2024.\nKey Corporate Actions\nDividend:\nRecommended final dividend of \u20b90.42 per equity share (face value \u20b910) for FY '25, subject to shareholder approval at the AGM.\nEquity Issuance:"
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 5,
+    "text": "Equity Issuance:\nAllotted 1,83,86,74,95 fully paid-up equity shares (\u20b910 each) to TMF Holdings Limited, shareholder of TMFL, pursuant to the Scheme of Arrangement effective May 8, 2025.\nAmalgamation:\nTMFL merged with TCL, effective April 1, 2024, under Sections 230-232 of the Companies Act, 2013. Assets and liabilities of TMFL recorded at fair value per Ind AS 103.\nQ3 FY '25 (Dec 31, 2024) results reflect the merged entity but are unaudited/unreviewed.\nCompliance and Disclosures"
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 6,
+    "text": "Compliance and Disclosures\nSEBI Listing Regulations:\nDisclosures under Regulation 52(4) included with financial results.\nSecurity Cover Certificate provided per Regulation 54.\nStatements confirming utilization of Non-Convertible Debenture proceeds and nil deviation/variation submitted per Regulations 52(7) and 52(7A).\nRelated Party Transactions disclosed for H2 FY '25 per Regulation 62K(9).\nLarge Corporate Disclosures submitted per SEBI Master Circular (May 22, 2024).\nAuditors:"
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 7,
+    "text": "Auditors:\nJointly audited by M S K A & Associates and M P Chitale & Co., with an unmodified opinion.\nAudit conducted per Standards on Auditing under Section 143(10) of the Companies Act, 2013.\nEmphasis of Matter: Highlighted the TMFL amalgamation, with no modification to the opinion.\nNotes and Limitations\nThe document lacks specific figures for expenses, profit before tax, tax expense, and net profit, as these are not included in the provided pages."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 8,
+    "text": "Q3 FY '25 (Dec 31, 2024) results are unaudited/unreviewed due to the merger, and Q4 FY '25 results are derived as a balancing figure from audited full-year and unaudited YTD figures.\nFY '24 comparative figures are pre-merger, limiting direct YoY comparability.\nAsset growth, particularly in loans and derivatives, is significantly influenced by the TMFL merger.\nAdditional Context"
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 9,
+    "text": "Additional Context\nThe amalgamation of TMFL has expanded TCL\u2019s loan book and operational scope, likely driving the sharp increase in interest income and assets.\nThe company\u2019s focus on compliance with SEBI regulations is evident through comprehensive disclosures and auditor certifications.\nThe dividend recommendation signals confidence in FY '25 performance, though the modest \u20b90.42 per share reflects prudent capital management post-merger."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 10,
+    "text": "For further details, refer to the complete financial results and investor disclosures on Tata Capital\u2019s website: www.tatacapital.com or the BSE/NSE filings."
+  },
+  {
+    "pdf": "Tata Capital Limited FY '25 Financi",
+    "section": "full_text",
+    "chunk_index": 11,
+    "text": "Disclaimer: This summary is based on the provided document excerpts. Missing data (e.g., expenses, net profit) limits a complete financial analysis. For precise figures, consult the full audited financial statements."
+  }
+]
